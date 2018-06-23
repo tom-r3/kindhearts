@@ -192,8 +192,8 @@ licensable under the [MIT license][licensing].  Code that cannot be released
 under this license **cannot be accepted** into the project.
 
 [community]: https://select2.github.io/community.html
-[grunt]: http://gruntjs.com/
-[isolated-case]: http://css-tricks.com/6263-reduced-test-cases/
+[grunt]: https://gruntjs.com/
+[isolated-case]: https://css-tricks.com/6263-reduced-test-cases/
 [issue-search]: https://github.com/select2/select2/search?q=&type=Issues
 [issue-tracker]: https://github.com/select2/select2/issues
 [jekyll]: https://jekyllrb.com/docs/installation/

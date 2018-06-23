@@ -19,37 +19,37 @@
 		{
 			"name": "Scott González",
 			"email": "scott.gonzalez@gmail.com",
-			"url": "http://scottgonzalez.com"
+			"url": "https://scottgonzalez.com"
 		},
 		{
 			"name": "Jörn Zaefferer",
 			"email": "joern.zaefferer@gmail.com",
-			"url": "http://bassistance.de"
+			"url": "https://bassistance.de"
 		},
 		{
 			"name": "Kris Borchers",
 			"email": "kris.borchers@gmail.com",
-			"url": "http://krisborchers.com"
+			"url": "https://krisborchers.com"
 		},
 		{
 			"name": "Corey Frang",
 			"email": "gnarf37@gmail.com",
-			"url": "http://gnarf.net"
+			"url": "https://gnarf.net"
 		},
 		{
 			"name": "Mike Sherov",
 			"email": "mike.sherov@gmail.com",
-			"url": "http://mike.sherov.com"
+			"url": "https://mike.sherov.com"
 		},
 		{
 			"name": "TJ VanToll",
 			"email": "tj.vantoll@gmail.com",
-			"url": "http://tjvantoll.com"
+			"url": "https://tjvantoll.com"
 		},
 		{
 			"name": "Felix Nagel",
 			"email": "info@felixnagel.com",
-			"url": "http://www.felixnagel.com"
+			"url": "https://www.felixnagel.com"
 		}
 	],
 	"licenses": [
@@ -58,11 +58,11 @@
 			"url": "https://github.com/jquery/jquery-ui/blob/1-11-stable/LICENSE.txt"
 		}
 	],
-	"bugs": "http://bugs.jqueryui.com/",
-	"homepage": "http://jqueryui.com/autocomplete/",
-	"demo": "http://jqueryui.com/autocomplete/",
-	"docs": "http://api.jqueryui.com/autocomplete/",
-	"download": "http://jqueryui.com/download/",
+	"bugs": "https://bugs.jqueryui.com/",
+	"homepage": "https://jqueryui.com/autocomplete/",
+	"demo": "https://jqueryui.com/autocomplete/",
+	"docs": "https://api.jqueryui.com/autocomplete/",
+	"download": "https://jqueryui.com/download/",
 	"dependencies": {
 		"jquery": ">=1.6",
 		"ui.core": "1.11.4",

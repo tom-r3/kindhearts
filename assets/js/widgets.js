@@ -49,7 +49,7 @@ function widgetPinterest() {
   });
 }
 
-// FLICKR WIDGET: http://www.newmediacampaigns.com/blog/a-jquery-flickr-feed-plugin
+// FLICKR WIDGET: https://www.newmediacampaigns.com/blog/a-jquery-flickr-feed-plugin
 function widgetFlickr() {
   $('.widget-flickr:not(.flickr-demo)').each(function () {
     var element = $(this);

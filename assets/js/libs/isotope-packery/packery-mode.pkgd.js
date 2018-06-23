@@ -1,7 +1,7 @@
 /*!
  * Packery layout mode PACKAGED v1.1.3
  * sub-classes Packery
- * http://packery.metafizzy.co
+ * https://packery.metafizzy.co
  */
 
 /*!
@@ -168,7 +168,7 @@ Rect.prototype.overlaps = function( rect ) {
   var rectRight = rect.x + rect.width;
   var rectBottom = rect.y + rect.height;
 
-  // http://stackoverflow.com/a/306332
+  // https://stackoverflow.com/a/306332
   return this.x < rectRight &&
     thisRight > rect.x &&
     this.y < rectBottom &&
@@ -604,7 +604,7 @@ return Item;
  * Licensed GPLv3 for open source use
  * or Flickity Commercial License for commercial use
  *
- * http://packery.metafizzy.co
+ * https://packery.metafizzy.co
  * Copyright 2015 Metafizzy
  */
 
@@ -1100,7 +1100,7 @@ return Packery;
 /*!
  * Packery layout mode v1.1.3
  * sub-classes Packery
- * http://packery.metafizzy.co
+ * https://packery.metafizzy.co
  */
 
 /*jshint browser: true, strict: true, undef: true, unused: true */

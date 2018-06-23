@@ -1,8 +1,8 @@
 ## Why You Should Use Tether
 
 Virtually every app includes some sort of overlay attached to an element on the page.
-Things like [tooltips](http://github.hubspot.com/tooltip/docs/welcome),
-[dropdowns](http://github.hubspot.com/select/docs/welcome), [hover-activated info boxes](http://github.hubspot.com/drop/docs/welcome), etc.
+Things like [tooltips](https://github.hubspot.com/tooltip/docs/welcome),
+[dropdowns](https://github.hubspot.com/select/docs/welcome), [hover-activated info boxes](https://github.hubspot.com/drop/docs/welcome), etc.
 
 Those elements need to be attached to something on the page.  Actually placing them next to
 the element in the DOM causes problems though, if any parent element is anything

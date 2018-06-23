@@ -1,4 +1,4 @@
-[Video.js homepage](http://videojs.com)
+[Video.js homepage](https://videojs.com)
 
 <h1>Video.js Documentation</h1>
 

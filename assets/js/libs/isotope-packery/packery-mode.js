@@ -1,7 +1,7 @@
 /*!
  * Packery layout mode v1.1.3
  * sub-classes Packery
- * http://packery.metafizzy.co
+ * https://packery.metafizzy.co
  */
 
 /*jshint browser: true, strict: true, undef: true, unused: true */

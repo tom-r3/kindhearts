@@ -11,13 +11,13 @@ classie.toggle( element, 'my-class' ) // toggle class
 
 ## Package management
 
-Install with [Bower](http://bower.io) :bird:
+Install with [Bower](https://bower.io) :bird:
 
 ``` bash
 bower install classie
 ```
 
-Install with [Component](http://github.com/component/component)
+Install with [Component](https://github.com/component/component)
 
 ``` bash
 component install desandro/classie
@@ -25,4 +25,4 @@ component install desandro/classie
 
 ## MIT license
 
-classie is released under the [MIT license](http://desandro.mit-license.org).
+classie is released under the [MIT license](https://desandro.mit-license.org).

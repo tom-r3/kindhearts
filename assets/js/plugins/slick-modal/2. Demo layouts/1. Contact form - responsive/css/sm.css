@@ -2,7 +2,7 @@
 
 - document:  Slick Modals - HTML5 and CSS3 powered modal popups
 - author:    Capelle @ Codecanyon
-- profile:   http://codecanyon.net/user/Capelle
+- profile:   https://codecanyon.net/user/Capelle
 - version:   3.0
 
 ==================================================== */
@@ -506,7 +506,7 @@
    Note: Media queries use breakpoints upon which the target elements change their settings/values. Below is an example which sets the modal window to 96% of screen width and the inner title font size at 24px when screen viewport is at 480px width or below (mobiles, low-res tablets etc). You can target specific viewport width, height, their min/max breakpoints, media types and other settings. Within those rules you can then adjust every element and it's css attributes.
 
    Check out more at:
-   http://www.w3schools.com/cssref/css3_pr_mediaquery.asp
+   https://www.w3schools.com/cssref/css3_pr_mediaquery.asp
 */
 
 @media screen and (max-width: 480px) {

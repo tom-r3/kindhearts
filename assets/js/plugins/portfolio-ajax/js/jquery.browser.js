@@ -8,7 +8,7 @@
 	var matched, browser;
 	
 	// Use of jQuery.browser is frowned upon.
-	// More details: http://api.jquery.com/jQuery.browser
+	// More details: https://api.jquery.com/jQuery.browser
 	// jQuery.uaMatch maintained for back-compat
 	
 	jQuery.uaMatch = function( ua ) {

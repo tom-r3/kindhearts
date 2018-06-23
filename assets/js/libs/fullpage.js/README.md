@@ -3,8 +3,8 @@
 ![preview](https://raw.github.com/alvarotrigo/fullPage.js/master/examples/imgs/intro.png)
 ![compatibility](https://raw.github.com/alvarotrigo/fullPage.js/master/examples/imgs/compatible.gif)
 
-![fullPage.js version](http://img.shields.io/badge/fullPage.js-v2.7.7-brightgreen.svg)
-[![License](http://img.shields.io/badge/License-MIT-blue.svg)](http://opensource.org/licenses/MIT)
+![fullPage.js version](https://img.shields.io/badge/fullPage.js-v2.7.7-brightgreen.svg)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 7Kb gziped!
 
 ----
@@ -15,17 +15,17 @@
 A simple and easy to use plugin to create fullscreen scrolling websites (also known as single page websites or onepage sites).
 It allows the creation of fullscreen scrolling websites, as well as adding some landscape sliders inside the sections of the site.
 
-- [Live demo](http://alvarotrigo.com/fullPage/)
+- [Live demo](https://alvarotrigo.com/fullPage/)
 - [Wordpress theme](https://goo.gl/HuFudq)
-- [Blog Article](http://alvarotrigo.com/blog/fullpage-jquery-plugin-for-fullscreen-scrolling-websites/)
+- [Blog Article](https://alvarotrigo.com/blog/fullpage-jquery-plugin-for-fullscreen-scrolling-websites/)
 - [Frequently Answered Questions](https://github.com/alvarotrigo/fullPage.js/wiki/FAQ---Frequently-Answered-Questions)
 
 Invite me to a coffee
 [![Donate](https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=BEK5JQCQMED4J&lc=GB&item_name=fullPage%2ejs&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted)
 
-Customizations of the plugin and urgent changes are available upon request for some reasonable price. <a href="http://alvarotrigo.com/#contact-page">Contact me</a>.
+Customizations of the plugin and urgent changes are available upon request for some reasonable price. <a href="https://alvarotrigo.com/#contact-page">Contact me</a>.
 
-Would you like to have a website using fullpage.js functionality but you don't know how to use it? I can do it for you for a reasonable price. <a href="http://alvarotrigo.com/#contact-page">Contact me</a>.
+Would you like to have a website using fullpage.js functionality but you don't know how to use it? I can do it for you for a reasonable price. <a href="https://alvarotrigo.com/#contact-page">Contact me</a>.
 
 - [Introduction](https://github.com/alvarotrigo/fullPage.js#introduction)
 - [Compatibility](https://github.com/alvarotrigo/fullPage.js#compatibility)
@@ -55,17 +55,17 @@ fullPage.js is fully functional on all modern browsers, as well as some old ones
 It works with browsers with CSS3 support and with the ones which don't have it, making it ideal for old browsers compatibility.
 It also provides touch support for mobile phones, tablets and touch screen computers.
 
-[![Browserstack](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/browserstack.png)](http://www.browserstack.com/)
+[![Browserstack](https://wallpapers-for-ipad.com/fullpage/imgs3/logos/browserstack.png)](https://www.browserstack.com/)
 
-Special thanks to [Browserstack](http://www.browserstack.com/) for supporting fullpage.js.
+Special thanks to [Browserstack](https://www.browserstack.com/) for supporting fullpage.js.
 
 ## Usage
 As you can see in the example files, you will need to include:
- - [jQuery library](http://jquery.com/). (1.6.0 minimum)
+ - [jQuery library](https://jquery.com/). (1.6.0 minimum)
  - The JavaScript file `jquery.fullPage.js` (or its minified version `jquery.fullPage.min.js`)
  - The css file `jquery.fullPage.css`
 
- **Optionally**, when using `css3:false`, you can add the [jQuery UI library](http://jqueryui.com/) in case you want to use other easing effects apart from the ones included in the jQuery library (`linear`, `swing` and `easeInOutCubic`) or the one included by default in fullPage.js (`easeInQuart`).
+ **Optionally**, when using `css3:false`, you can add the [jQuery UI library](https://jqueryui.com/) in case you want to use other easing effects apart from the ones included in the jQuery library (`linear`, `swing` and `easeInOutCubic`) or the one included by default in fullPage.js (`easeInQuart`).
 
 ### Install using bower or npm
 **Optionally**, you can install fullPage.js with bower or npm if you prefer:
@@ -83,7 +83,7 @@ npm install fullpage.js
 ```html
 <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
 <!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic". -->
 <script src="vendors/jquery.easings.min.js"></script>
@@ -205,7 +205,7 @@ $(document).ready(function() {
 ### Creating links to sections or slides
 If you are using fullPage.js with anchor links for the sections (using the `anchors` option or the attribute `data-anchor` in each section), then you will be able to use anchor links also to navigate directly to a certain slide inside a section.
 
-This would be an example of a link with an anchor: http://alvarotrigo.com/fullPage/#secondPage/2 (which is the URL you will see once you access to that section/slide manually)
+This would be an example of a link with an anchor: https://alvarotrigo.com/fullPage/#secondPage/2 (which is the URL you will see once you access to that section/slide manually)
 Notice the last part of the URL ends in `#secondPage/2`.
 
 Having the following initialization:
@@ -252,13 +252,13 @@ Fullpage.js adds multiple classes in different elements to keep a record of the 
 
 - The class `active` is added the current visible section and slide.
 - The class `active` is added to the current menu element (if using the `menu` option).
-- A class of the form `fp-viewing-SECTION-SLIDE` is added to the `body` element of the site. (eg: [`fp-viewing-secondPage-0`](http://alvarotrigo.com/fullPage/#secondPage)) The `SECTION` and `SLIDE` parts will be the anchors (or indexes if no anchor is provided) of the current section and slide.
+- A class of the form `fp-viewing-SECTION-SLIDE` is added to the `body` element of the site. (eg: [`fp-viewing-secondPage-0`](https://alvarotrigo.com/fullPage/#secondPage)) The `SECTION` and `SLIDE` parts will be the anchors (or indexes if no anchor is provided) of the current section and slide.
 - The class `fp-responsive` is added to the `body` element when the entering in the responsive mode
 - The class `fp-enabled` is added to the `html` element when fullpage.js is enabled. (and removed when destroyed).
 - The class `fp-destroyed` is added to the fullpage.js container when the plugin is destroyed.
 
 ###Lazy Loading
-[Demo](http://codepen.io/alvarotrigo/pen/eNLBXo) fullPage.js provides a way to lazy load images, videos and audio elements so they won't slow down the loading of your site or unnecessarily waste data transfer.
+[Demo](https://codepen.io/alvarotrigo/pen/eNLBXo) fullPage.js provides a way to lazy load images, videos and audio elements so they won't slow down the loading of your site or unnecessarily waste data transfer.
 When using lazy loading, all these elements will only get loaded when entering in the viewport.
 To enable lazy loading all you need to do is change your `src` attribute to `data-src` as shown below:
 
@@ -296,9 +296,9 @@ Now anchors can be defined directly in the HTML structure by using the attribute
 **Important** It is helpful to understand that the values in the `anchors` option array correlate directly to the element with the class of `.section` by it's position in the markup.
 
 - `easing`: (default `easeInOutCubic`) Defines the transition effect to use for the vertical and horizontal scrolling.
-It requires the file `vendors/jquery.easings.min.js` or [jQuery UI](http://jqueryui.com/) for using some of [its transitions](http://api.jqueryui.com/easings/). Other libraries could be used instead.
+It requires the file `vendors/jquery.easings.min.js` or [jQuery UI](https://jqueryui.com/) for using some of [its transitions](https://api.jqueryui.com/easings/). Other libraries could be used instead.
 
-- `easingcss3`: (default `ease`) Defines the transition effect to use in case of using `css3:true`. You can use the [pre-defined ones](http://www.w3schools.com/cssref/css3_pr_transition-timing-function.asp) (such as `linear`, `ease-out`...) or create your own ones using the `cubic-bezier` function. You might want to use [Matthew Lein CSS Easing Animation Tool](http://matthewlein.com/ceaser/) for it.
+- `easingcss3`: (default `ease`) Defines the transition effect to use in case of using `css3:true`. You can use the [pre-defined ones](https://www.w3schools.com/cssref/css3_pr_transition-timing-function.asp) (such as `linear`, `ease-out`...) or create your own ones using the `cubic-bezier` function. You might want to use [Matthew Lein CSS Easing Animation Tool](https://matthewlein.com/ceaser/) for it.
 
 - `loopTop`: (default `false`) Defines whether scrolling up in the first section should scroll to the last one or not.
 
@@ -386,22 +386,22 @@ In case of setting it to `true`, it requires the vendor plugin [`jquery.slimscro
 - `responsiveHeight`: (default `0`)  A normal scroll (`autoScrolling:false`) will be used under the defined height in pixels. A class `fp-responsive` is added to the body tag in case the user wants to use it for his own responsive CSS. For example, if set to 900, whenever the browser's height is less than 900 the plugin will scroll like a normal site.
 
 ## Methods
-You can see them in action [here](http://alvarotrigo.com/fullPage/examples/methods.html)
+You can see them in action [here](https://alvarotrigo.com/fullPage/examples/methods.html)
 
 ### moveSectionUp()
-[Demo](http://codepen.io/alvarotrigo/pen/GJXNMN) Scrolls one section up:
+[Demo](https://codepen.io/alvarotrigo/pen/GJXNMN) Scrolls one section up:
 ```javascript
 $.fn.fullpage.moveSectionUp();
 ```
 ---
 ### moveSectionDown()
-[Demo](http://codepen.io/alvarotrigo/pen/jPvVZx) Scrolls one section down:
+[Demo](https://codepen.io/alvarotrigo/pen/jPvVZx) Scrolls one section down:
 ```javascript
 $.fn.fullpage.moveSectionDown();
 ```
 ---
 ### moveTo(section, slide)
-[Demo](http://codepen.io/alvarotrigo/pen/doqOmY) Scrolls the page to the given section and slide. The first slide, the visible one by default, will have index 0.
+[Demo](https://codepen.io/alvarotrigo/pen/doqOmY) Scrolls the page to the given section and slide. The first slide, the visible one by default, will have index 0.
 ```javascript
 /*Scrolling to the section with the anchor link `firstSlide` and to the 2nd Slide */
 $.fn.fullpage.moveTo('firstSlide', 2);
@@ -417,7 +417,7 @@ $.fn.fullpage.moveTo(3);
 ```
 ---
 ### silentMoveTo(section, slide)
-[Demo](http://codepen.io/alvarotrigo/pen/doqOeY)
+[Demo](https://codepen.io/alvarotrigo/pen/doqOeY)
 Exactly the same as [`moveTo`](https://github.com/alvarotrigo/fullPage.js#movetosection-slide) but in this case it performs the scroll without animation. A direct jump to the destination.
 ```javascript
 /*Scrolling to the section with the anchor link `firstSlide` and to the 2nd Slide */
@@ -425,21 +425,21 @@ $.fn.fullpage.silentMoveTo('firstSlide', 2);
 ```
 ---
 ### moveSlideRight()
-[Demo](http://codepen.io/alvarotrigo/pen/Wvgoyz)
+[Demo](https://codepen.io/alvarotrigo/pen/Wvgoyz)
 Scrolls the horizontal slider of the current section to the next slide:
 ```javascript
 $.fn.fullpage.moveSlideRight();
 ```
 ---
 ### moveSlideLeft()
-[Demo](http://codepen.io/alvarotrigo/pen/gpdLjW)
+[Demo](https://codepen.io/alvarotrigo/pen/gpdLjW)
 Scrolls the horizontal slider of the current section to the previous slide:
 ```javascript
 $.fn.fullpage.moveSlideLeft();
 ```
 ---
 ### setAutoScrolling(boolean)
-[Demo](http://codepen.io/alvarotrigo/pen/rVZWrR) Sets the scrolling configuration in real time.
+[Demo](https://codepen.io/alvarotrigo/pen/rVZWrR) Sets the scrolling configuration in real time.
 Defines the way the page scrolling behaves. If it is set to `true`, it will use the "automatic" scrolling, otherwise, it will use the "manual" or "normal" scrolling of the site. Be careful when combining this option with `scrollOverflow` set to true, as it might be difficult to scroll using the mouse wheel or the trackpad when the section is scrollable.
 
 ```javascript
@@ -447,7 +447,7 @@ $.fn.fullpage.setAutoScrolling(false);
 ```
 ---
 ### setFitToSection(boolean)
-[Demo](http://codepen.io/alvarotrigo/pen/GJXNYm)
+[Demo](https://codepen.io/alvarotrigo/pen/GJXNYm)
 Sets the value for the option `fitToSection` determining whether to fit the section in the screen or not.
 
 ```javascript
@@ -455,7 +455,7 @@ $.fn.fullpage.setFitToSection(false);
 ```
 ---
 ### setLockAnchors(boolean)
-[Demo](http://codepen.io/alvarotrigo/pen/yNxVRQ)
+[Demo](https://codepen.io/alvarotrigo/pen/yNxVRQ)
 Sets the value for the option `lockAnchors` determining whether anchors will have any effect in the URL or not.
 
 ```javascript
@@ -463,7 +463,7 @@ $.fn.fullpage.setLockAnchors(false);
 ```
 ---
 ### setAllowScrolling(boolean, [directions])
-[Demo](http://codepen.io/alvarotrigo/pen/EjeNdq) Adds or remove the possibility of scrolling through sections by using the mouse wheel/trackpad or touch gestures (which is active by default). Note this won't disable the keyboard scrolling. You
+[Demo](https://codepen.io/alvarotrigo/pen/EjeNdq) Adds or remove the possibility of scrolling through sections by using the mouse wheel/trackpad or touch gestures (which is active by default). Note this won't disable the keyboard scrolling. You
 would need to use `setKeyboardScrolling` for it.
 
 - `directions`: (optional parameter) Admitted values: `all`, `up`, `down`, `left`, `right` or a combination of them separated by commas like `down, right`. It defines the direction for which the scrolling will be enabled or disabled.
@@ -481,7 +481,7 @@ $.fn.fullpage.setAllowScrolling(false, 'down, right');
 ```
 ---
 ### setKeyboardScrolling(boolean, [directions])
-[Demo](http://codepen.io/alvarotrigo/pen/GJXNwm) Adds or remove the possibility of scrolling through sections by using the keyboard arrow keys (which is active by default).
+[Demo](https://codepen.io/alvarotrigo/pen/GJXNwm) Adds or remove the possibility of scrolling through sections by using the keyboard arrow keys (which is active by default).
 
 - `directions`: (optional parameter) Admitted values: `all`, `up`, `down`, `left`, `right` or a combination of them separated by commas like `down, right`. It defines the direction for which the scrolling will be enabled or disabled.
 
@@ -497,21 +497,21 @@ $.fn.fullpage.setKeyboardScrolling(false, 'down, right');
 ```
 ---
 ### setRecordHistory(boolean)
-[Demo](http://codepen.io/alvarotrigo/pen/rVZWQb) Defines whether to record the history for each hash change in the URL.
+[Demo](https://codepen.io/alvarotrigo/pen/rVZWQb) Defines whether to record the history for each hash change in the URL.
 
 ```javascript
 $.fn.fullpage.setRecordHistory(false);
 ```
 ---
 ### setScrollingSpeed(milliseconds)
-[Demo](http://codepen.io/alvarotrigo/pen/NqLbeY) Defines the scrolling speed in milliseconds.
+[Demo](https://codepen.io/alvarotrigo/pen/NqLbeY) Defines the scrolling speed in milliseconds.
 
 ```javascript
 $.fn.fullpage.setScrollingSpeed(700);
 ```
 ---
 ### destroy(type)
-[Demo](http://codepen.io/alvarotrigo/pen/bdxBzv) Destroys the plugin events and optionally its HTML markup and styles.
+[Demo](https://codepen.io/alvarotrigo/pen/bdxBzv) Destroys the plugin events and optionally its HTML markup and styles.
 Ideal to use when using AJAX to load content.
 
 - `type`: can be empty or `all`. If `all` is passed, the HTML markup and styles used by fullpage.js will be removed. This way the original HTML markup, the one used before any plugin modification is made, will be maintained.
@@ -533,7 +533,7 @@ $.fn.fullpage.reBuild();
 ```
 
 ## Callbacks
-[Demo](http://codepen.io/alvarotrigo/pen/XbPNQv) You can see them in action [here](http://alvarotrigo.com/fullPage/examples/callbacks.html).
+[Demo](https://codepen.io/alvarotrigo/pen/XbPNQv) You can see them in action [here](https://alvarotrigo.com/fullPage/examples/callbacks.html).
 
 ###afterLoad (`anchorLink`, `index`)
 Callback fired once the sections have been loaded, after the scrolling has ended.
@@ -713,7 +713,7 @@ You can cancel a move by returning `false` on the `onSlideLeave` callback. [Same
 1. Please, look for your issue before asking using the github issues search.
 2. Make sure you use the latest fullpage.js version. No support is provided for older versions.
 3. Use the [the Github Issues forum](https://github.com/alvarotrigo/fullPage.js/issues) for create issues.
-4. **An isolated reproduction of the issue will be required.** Make use of [jsfiddle](http://jsfiddle.net/97tbk/418/) or [codepen](http://codepen.io/alvarotrigo/pen/NxyPPp) for it if possible.
+4. **An isolated reproduction of the issue will be required.** Make use of [jsfiddle](https://jsfiddle.net/97tbk/418/) or [codepen](https://codepen.io/alvarotrigo/pen/NxyPPp) for it if possible.
 
 #Contributing to fullpage.js
 Please see [Contributing to fullpage.js](https://github.com/alvarotrigo/fullPage.js/wiki/Contributing-to-fullpage.js)
@@ -726,99 +726,99 @@ Want to build fullpage.js distribution files? Please see [Build Tasks](https://g
 
 #Resources
 - [Wordpress theme](https://goo.gl/HuFudq)
-- [CSS Easing Animation Tool - Matthew Lein](http://matthewlein.com/ceaser/) (useful to define the `easingcss3` value)
-- [fullPage.js jsDelivr CDN](http://www.jsdelivr.com/#!jquery.fullpage)
-- [fullPage.js plugin for October CMS](http://octobercms.com/plugin/freestream-parallax)
+- [CSS Easing Animation Tool - Matthew Lein](https://matthewlein.com/ceaser/) (useful to define the `easingcss3` value)
+- [fullPage.js jsDelivr CDN](https://www.jsdelivr.com/#!jquery.fullpage)
+- [fullPage.js plugin for October CMS](https://octobercms.com/plugin/freestream-parallax)
 - [fullPage.js wordpress plugin](https://wordpress.org/plugins/wp-fullpage/)
-- [Integrating fullPage.js with Wordpress (Tutorial)](http://premium.wpmudev.org/blog/build-apple-inspired-full-page-scrolling-pages-for-your-wordpress-site/)
+- [Integrating fullPage.js with Wordpress (Tutorial)](https://premium.wpmudev.org/blog/build-apple-inspired-full-page-scrolling-pages-for-your-wordpress-site/)
 
 ## Who is using fullPage.js
 If you want your page to be listed here. Please <a href="mailto:alvaro@alvarotrigo.com">contact me</a> with the URL.
 
-[![Google](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/google.png)](http://www.yourprimer.com/)
-[![Sony](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/sony.gif)](http://www.sony-asia.com/microsite/mdr-10/)
-![Vodafone](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/vodafone.png)
-[![British Airways](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/british-airways-fullpage.gif)](http://www.britishairways.com/en-gb/information/travel-classes/experience-our-cabins)
-[![EA](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/ea.png)](http://www.battlefield.com/)
-[![Mi](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/mi.png)](http://www.mi.com/shouhuan)
-[![scribe](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/scribe.png)](http://usescribe.com/)
-[![matrimonia](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/matrimonia.png)](http://www.matrimonia.rs/)
-[![redd](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/redd.png)](http://www.getredd.com/)
-[![redd](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/sym.png)](http://www.sanyang.com.tw/service/Conception/)
+[![Google](https://wallpapers-for-ipad.com/fullpage/imgs3/logos/google.png)](https://www.yourprimer.com/)
+[![Sony](https://wallpapers-for-ipad.com/fullpage/imgs3/logos/sony.gif)](https://www.sony-asia.com/microsite/mdr-10/)
+![Vodafone](https://wallpapers-for-ipad.com/fullpage/imgs3/logos/vodafone.png)
+[![British Airways](https://wallpapers-for-ipad.com/fullpage/imgs3/logos/british-airways-fullpage.gif)](https://www.britishairways.com/en-gb/information/travel-classes/experience-our-cabins)
+[![EA](https://wallpapers-for-ipad.com/fullpage/imgs3/logos/ea.png)](https://www.battlefield.com/)
+[![Mi](https://wallpapers-for-ipad.com/fullpage/imgs3/logos/mi.png)](https://www.mi.com/shouhuan)
+[![scribe](https://wallpapers-for-ipad.com/fullpage/imgs3/logos/scribe.png)](https://usescribe.com/)
+[![matrimonia](https://wallpapers-for-ipad.com/fullpage/imgs3/logos/matrimonia.png)](https://www.matrimonia.rs/)
+[![redd](https://wallpapers-for-ipad.com/fullpage/imgs3/logos/redd.png)](https://www.getredd.com/)
+[![redd](https://wallpapers-for-ipad.com/fullpage/imgs3/logos/sym.png)](https://www.sanyang.com.tw/service/Conception/)
 
-- http://www.britishairways.com/en-gb/information/travel-classes/experience-our-cabins
-- http://www.sony-asia.com/microsite/mdr-10/
-- http://www.yourprimer.com/
-- http://burntmovie.com/
-- http://essenso.com/
-- http://www.battlefield.com/
-- http://www.kibey.com/
-- http://www.newjumoconcept.com/
-- http://www.shootinggalleryasia.com/
-- http://medoff.ua/en/
-- http://promo.prestigio.com/grace1/
-- http://www.mi.com/shouhuan
+- https://www.britishairways.com/en-gb/information/travel-classes/experience-our-cabins
+- https://www.sony-asia.com/microsite/mdr-10/
+- https://www.yourprimer.com/
+- https://burntmovie.com/
+- https://essenso.com/
+- https://www.battlefield.com/
+- https://www.kibey.com/
+- https://www.newjumoconcept.com/
+- https://www.shootinggalleryasia.com/
+- https://medoff.ua/en/
+- https://promo.prestigio.com/grace1/
+- https://www.mi.com/shouhuan
 - https://moneytree.jp/
-- http://torchbrowser.com/
-- http://thekorner.fr/
-- http://www.restaurantwoods.nl/
-- http://urban-walks.com/
-- http://lingualeo.com/
-- http://charlotteaimes.com/
-- http://collection.madeofsundays.com
-- http://thiswasmybest.com/
-- http://www.boxreload.com/
-- http://www.thespecialists.be
-- http://brianingle.webflow.com/
-- http://lawinenstift.com/
-- http://www.swenk.me/
-- http://duis.co/
-- http://educationaboveall.org/
-- http://camfindapp.com/
-- http://bnacademy.com.au/
-- http://rockercreative.com/
-- http://wantnova.com/
-- http://usescribe.com/
-- http://lucilecazanave.com/
-- http://boxx.hk/
-- http://medlive.com
-- http://bearonunicycle.com/
-- http://rawmilk.dk/en/
-- http://www.famavolat.com/
-- http://www.carpetloverclub.com/
-- http://www.sanyang.com.tw/service/Conception/
-- http://www.batzaya.net/
-- http://www.graphicid.dk/
-- http://www.jukstapoz.com/
-- http://portfolio.io.utwente.nl/student/dijkavan/
-- http://www.carlphot.com/
-- http://medissix.com/
-- http://trasmissione-energia.terna.it/
-- http://www.thefoodmovie.com/
-- http://www.villareginateodolinda.it
-- http://www.kesstrio.com
-- http://www.karmaffne.com/
-- http://fossdistillery.is
-- http://www.conversionculture.com/
-- http://ded-morozz.kiev.ua/
-- http://www.fergalkeenan.com
-- http://yizeng.me/
-- http://neolearning.eu/
-- http://unabridgedsoftware.com/
-- http://wc2014.plnwrx.com/
-- http://organice.io/
-- http://atlanticcorp.us/
-- http://moysport.ru/
-- http://wcfixtures.co.uk/
-- http://www.dopehustleinc.com/default.php
-- http://themify.me/demo/#theme=fullpane
-- http://dancingroad.com
-- http://www.camanihome.com/
-- http://www.exapoint.ch/
+- https://torchbrowser.com/
+- https://thekorner.fr/
+- https://www.restaurantwoods.nl/
+- https://urban-walks.com/
+- https://lingualeo.com/
+- https://charlotteaimes.com/
+- https://collection.madeofsundays.com
+- https://thiswasmybest.com/
+- https://www.boxreload.com/
+- https://www.thespecialists.be
+- https://brianingle.webflow.com/
+- https://lawinenstift.com/
+- https://www.swenk.me/
+- https://duis.co/
+- https://educationaboveall.org/
+- https://camfindapp.com/
+- https://bnacademy.com.au/
+- https://rockercreative.com/
+- https://wantnova.com/
+- https://usescribe.com/
+- https://lucilecazanave.com/
+- https://boxx.hk/
+- https://medlive.com
+- https://bearonunicycle.com/
+- https://rawmilk.dk/en/
+- https://www.famavolat.com/
+- https://www.carpetloverclub.com/
+- https://www.sanyang.com.tw/service/Conception/
+- https://www.batzaya.net/
+- https://www.graphicid.dk/
+- https://www.jukstapoz.com/
+- https://portfolio.io.utwente.nl/student/dijkavan/
+- https://www.carlphot.com/
+- https://medissix.com/
+- https://trasmissione-energia.terna.it/
+- https://www.thefoodmovie.com/
+- https://www.villareginateodolinda.it
+- https://www.kesstrio.com
+- https://www.karmaffne.com/
+- https://fossdistillery.is
+- https://www.conversionculture.com/
+- https://ded-morozz.kiev.ua/
+- https://www.fergalkeenan.com
+- https://yizeng.me/
+- https://neolearning.eu/
+- https://unabridgedsoftware.com/
+- https://wc2014.plnwrx.com/
+- https://organice.io/
+- https://atlanticcorp.us/
+- https://moysport.ru/
+- https://wcfixtures.co.uk/
+- https://www.dopehustleinc.com/default.php
+- https://themify.me/demo/#theme=fullpane
+- https://dancingroad.com
+- https://www.camanihome.com/
+- https://www.exapoint.ch/
 - https://life2film.com/en/
-- http://www.altamirarecovery.com/shame/
+- https://www.altamirarecovery.com/shame/
 
-You can find another list [here](http://libscore.com/#$.fn.fullpage).
+You can find another list [here](https://libscore.com/#$.fn.fullpage).
 
 ## Donations
 Donations would be more than welcome :)

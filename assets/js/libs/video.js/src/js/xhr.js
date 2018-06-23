@@ -4,11 +4,11 @@
  * ##### Example
  *
  *     // using url string
- *     videojs.xhr('http://example.com/myfile.vtt', function(error, response, responseBody){});
+ *     videojs.xhr('https://example.com/myfile.vtt', function(error, response, responseBody){});
  *
  *     // or options block
  *     videojs.xhr({
- *       uri: 'http://example.com/myfile.vtt',
+ *       uri: 'https://example.com/myfile.vtt',
  *       method: 'GET',
  *       responseType: 'text'
  *     }, function(error, response, responseBody){
@@ -91,7 +91,7 @@ vjs.xhr = function(options, callback){
     request.onload = successHandler;
     request.onerror = errorHandler;
     // These blank handlers need to be set to fix ie9
-    // http://cypressnorth.com/programming/internet-explorer-aborting-ajax-requests-fixed/
+    // https://cypressnorth.com/programming/internet-explorer-aborting-ajax-requests-fixed/
     request.onprogress = function(){};
     request.ontimeout = function(){};
 

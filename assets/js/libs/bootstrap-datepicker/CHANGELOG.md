@@ -88,11 +88,11 @@ Locale changes:
 * De-duplicated Ukrainian files from `uk` and `ua` to just `ua`
 
 Repository changes:
-* Documentation has been moved from the base `README.md` file to the `docs/` folder, and been re-written to use sphinx docs.  The docs are now viewable online at http://bootstrap-datepicker.readthedocs.org/.  The [gh-pages](http://eternicode.github.io/bootstrap-datepicker/) branch has been reduced to the sandbox demo.
+* Documentation has been moved from the base `README.md` file to the `docs/` folder, and been re-written to use sphinx docs.  The docs are now viewable online at https://bootstrap-datepicker.readthedocs.org/.  The [gh-pages](https://eternicode.github.io/bootstrap-datepicker/) branch has been reduced to the sandbox demo.
 * Changed the js file header to point at repo/demo/docs urls instead of eyecon.ro
 * The css files are now the output of the standalone build scripts instead of `build/build.less` etc.
 * `composer.json` now supports component-installer
-* Added [JSHint](http://www.jshint.com/docs/) and [JSCS](https://github.com/mdevils/node-jscs) configurations
+* Added [JSHint](https://www.jshint.com/docs/) and [JSCS](https://github.com/mdevils/node-jscs) configurations
 
 
 1.2.0
@@ -202,7 +202,7 @@ Small optimizations release
 v1.0.1
 ------
 
-* Support for [Bower](http://twitter.github.com/bower/)
+* Support for [Bower](https://twitter.github.com/bower/)
 * Component pickers are now aligned under the input, not the add-on element.
 * Japanese locale now has "today" and "format".
 * "remove" method removes `.data().date` if the datepicker is on a non-input.

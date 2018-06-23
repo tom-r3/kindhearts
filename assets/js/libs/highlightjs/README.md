@@ -1,11 +1,11 @@
 Highlight.js
 ============
 
-Shim repository for [Highlight.js](http://highlightjs.org/).
+Shim repository for [Highlight.js](https://highlightjs.org/).
 
 Package Managers
 ----------------
 
-* [Bower](http://bower.io): `highlightjs`
-* [Composer](http://packagist.org/packages/components/highlightjs): `components/highlightjs`
-* [Component](http://component.io): `components/highlightjs`
+* [Bower](https://bower.io): `highlightjs`
+* [Composer](https://packagist.org/packages/components/highlightjs): `components/highlightjs`
+* [Component](https://component.io): `components/highlightjs`

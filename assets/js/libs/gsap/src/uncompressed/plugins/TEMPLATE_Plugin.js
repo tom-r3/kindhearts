@@ -1,7 +1,7 @@
 /*!
  * VERSION: 1.1.1
  * DATE: 2014-07-17
- * UPDATES AND DOCS AT: http://greensock.com
+ * UPDATES AND DOCS AT: https://greensock.com
  * 
  * This file is to be used as a simple template for writing your own plugin. See the 
  * TweenPlugin docs for more details.
@@ -11,7 +11,7 @@
  * of TweenLite won't work with this.
  *
  * @license Copyright (c) 2008-2016, GreenSock. All rights reserved.
- * This work is subject to the terms at http://greensock.com/standard-license or for
+ * This work is subject to the terms at https://greensock.com/standard-license or for
  * Club GreenSock members, the software agreement that was issued with your membership.
  * 
  * @author: Jack Doyle, jack@greensock.com

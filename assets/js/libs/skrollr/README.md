@@ -1,4 +1,4 @@
-[![Build Status](https://secure.travis-ci.org/Prinzhorn/skrollr.png)](http://travis-ci.org/Prinzhorn/skrollr)
+[![Build Status](https://secure.travis-ci.org/Prinzhorn/skrollr.png)](https://travis-ci.org/Prinzhorn/skrollr)
 
 skrollr 0.6.30
 ==============
@@ -86,7 +86,7 @@ If you're familiar with CSS, you already know the `style` attribute. In order to
 ```html
 <div data-0="background-color:rgb(0,0,255);" data-500="background-color:rgb(255,0,0);">WOOOT</div>
 ```
-[View in browser](http://prinzhorn.github.io/skrollr/examples/docu/1.html)
+[View in browser](https://prinzhorn.github.io/skrollr/examples/docu/1.html)
 
 ##### Lessons learned
 
@@ -98,7 +98,7 @@ If you're familiar with CSS, you already know the `style` attribute. In order to
 ```html
 <div data-0="background-color:rgb(0,0,255);transform:rotate(0deg);" data-500="background-color:rgb(255,0,0);transform:rotate(360deg);">WOOOT</div>
 ```
-[View in browser](http://prinzhorn.github.io/skrollr/examples/docu/2.html)
+[View in browser](https://prinzhorn.github.io/skrollr/examples/docu/2.html)
 
 ##### Lessons learned
 
@@ -109,7 +109,7 @@ If you're familiar with CSS, you already know the `style` attribute. In order to
 ```html
 <div data-0="background-color:rgb(0,0,255);transform[bounce]:rotate(0deg);" data-500="background-color:rgb(255,0,0);transform[bounce]:rotate(360deg);">WOOOT</div>
 ```
-[View in browser](http://prinzhorn.github.io/skrollr/examples/docu/3.html)
+[View in browser](https://prinzhorn.github.io/skrollr/examples/docu/3.html)
 
 #### Lessons learned
 
@@ -122,7 +122,7 @@ Now you may have noticed that using `500` as a keyframe position is kind of rand
 ```html
 <div data-0="background-color:rgb(0,0,255);transform[bounce]:rotate(0deg);" data-top="background-color:rgb(255,0,0);transform[bounce]:rotate(360deg);">WOOOT</div>
 ```
-[View in browser](http://prinzhorn.github.io/skrollr/examples/docu/4.html)
+[View in browser](https://prinzhorn.github.io/skrollr/examples/docu/4.html)
 
 ##### Lessons learned
 
@@ -148,7 +148,7 @@ You just told me it doesn't work on mobile, but why does it? The answer is simpl
 
 Starting with skrollr 0.6.0 there's just one thing you need to do: Include an element on your page with the id `skrollr-body`. That's the element we move in order to fake scrolling. The only case where you don't need a `#skrollr-body` is when using `position:fixed` exclusively. In fact, the skrollr website doesn't include a `#skrollr-body` element. If you need both fixed and non-fixed (i.e. static) elements, put the static ones inside the `#skrollr-body` element.
 
-Or to put it differently: On mobile the `skrollr-body` element is moved using CSS transforms. You can't have `position:fixed` or `background-attachment:fixed` inside elements which use CSS transforms as per CSS spec (http://meyerweb.com/eric/thoughts/2011/09/12/un-fixing-fixed-elements-with-css-transforms/). That's why those elements need to be **outside** of the `skrollr-body` element.
+Or to put it differently: On mobile the `skrollr-body` element is moved using CSS transforms. You can't have `position:fixed` or `background-attachment:fixed` inside elements which use CSS transforms as per CSS spec (https://meyerweb.com/eric/thoughts/2011/09/12/un-fixing-fixed-elements-with-css-transforms/). That's why those elements need to be **outside** of the `skrollr-body` element.
 
 The `skrollr-body` element might be configured within the [init-options](#skrollrinitoptions).
 
@@ -536,7 +536,7 @@ skrollr ships with some built in functions:
 
 **Custom easing**
 
-* Use [this](http://www.timotheegroleau.com/Flash/experiments/easing_function_generator.htm) generator
+* Use [this](https://www.timotheegroleau.com/Flash/experiments/easing_function_generator.htm) generator
 * Insert the given polynomial coeficients instead of t, t2, t3, t4 and t5
 ```
 t5*(p*p*p*p*p) + t4*(p*p*p*p) + t3*(p*p*p) + t2*(p*p) + t*p

@@ -1,12 +1,12 @@
 /*!
  * VERSION: 1.18.2
  * DATE: 2015-12-22
- * UPDATES AND DOCS AT: http://greensock.com
+ * UPDATES AND DOCS AT: https://greensock.com
  * 
  * Includes all of the following: TweenLite, TweenMax, TimelineLite, TimelineMax, EasePack, CSSPlugin, RoundPropsPlugin, BezierPlugin, AttrPlugin, DirectionalRotationPlugin
  *
  * @license Copyright (c) 2008-2016, GreenSock. All rights reserved.
- * This work is subject to the terms at http://greensock.com/standard-license or for
+ * This work is subject to the terms at https://greensock.com/standard-license or for
  * Club GreenSock members, the software agreement that was issued with your membership.
  * 
  * @author: Jack Doyle, jack@greensock.com
@@ -2534,7 +2534,7 @@ var _gsScope = (typeof(module) !== "undefined" && module.exports && typeof(globa
 			_forcePT = {},
 			_doc = document,
 			_createElement = function(type) {
-				return _doc.createElementNS ? _doc.createElementNS("http://www.w3.org/1999/xhtml", type) : _doc.createElement(type);
+				return _doc.createElementNS ? _doc.createElementNS("https://www.w3.org/1999/xhtml", type) : _doc.createElement(type);
 			},
 			_tempDiv = _createElement("div"),
 			_tempImg = _createElement("img"),
@@ -3623,7 +3623,7 @@ var _gsScope = (typeof(module) !== "undefined" && module.exports && typeof(globa
 			//Some browsers (like Firefox and IE) don't honor transform-origin properly in SVG elements, so we need to manually adjust the matrix accordingly. We feature detect here rather than always doing the conversion for certain browsers because they may fix the problem at some point in the future.
 
 			_createSVG = function(type, container, attributes) {
-				var element = _doc.createElementNS("http://www.w3.org/2000/svg", type),
+				var element = _doc.createElementNS("https://www.w3.org/2000/svg", type),
 					reg = /([a-z])([A-Z])/g,
 					p;
 				for (p in attributes) {

@@ -11,7 +11,7 @@
     "Nicholas Hwang <nick.joosung.hwang@gmail.com>"
   ],
   "license": "MIT",
-  "demo": "http://github.hubspot.com/tether/docs/welcome/",
+  "demo": "https://github.hubspot.com/tether/docs/welcome/",
   "main": "dist/js/tether.js",
   "styles": [
     "dist/css/tether.css"

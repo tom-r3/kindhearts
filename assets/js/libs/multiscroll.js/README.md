@@ -1,21 +1,21 @@
 # multiScroll.js
 
 ![preview](https://raw.github.com/alvarotrigo/multiScroll.js/master/examples/imgs/multiscroll.png)
-![compatibility](http://alvarotrigo.com/multiScroll/imgs/compatible.gif)
+![compatibility](https://alvarotrigo.com/multiScroll/imgs/compatible.gif)
 
 A simple plugin to create multi scrolling websites with two vertical scrolling panels.
 
-- [Live demo](http://alvarotrigo.com/multiScroll/)
-- [Website](http://alvarotrigo.com/blog/multiscroll-js-jquery-plugin-to-create-multi-scrolling-sites-with-two-vertical-layouts/)
+- [Live demo](https://alvarotrigo.com/multiScroll/)
+- [Website](https://alvarotrigo.com/blog/multiscroll-js-jquery-plugin-to-create-multi-scrolling-sites-with-two-vertical-layouts/)
 
 Some sites using a similar effects:
-- http://www.reverzo.tymberry.com/
-- http://wandaprint.com/home/
+- https://www.reverzo.tymberry.com/
+- https://wandaprint.com/home/
 
 Invite me to a coffee
 [![Donate](https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/es/cgi-bin/webscr?cmd=_donations&business=BEK5JQCQMED4J&lc=GB&item_name=multiScroll%2ejs&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted)
 
-Customizations of the plugin available upon request for some reasonable price. <a href="http://alvarotrigo.com/#contact-page">Contact me</a>.
+Customizations of the plugin available upon request for some reasonable price. <a href="https://alvarotrigo.com/#contact-page">Contact me</a>.
 
 ## Introduction
 This plugin its in Beta version. Suggestion are more than welcome, not only for feature requests but also for coding style improvements.
@@ -26,13 +26,13 @@ It works with browsers with CSS3 support and with the ones who don't have it, ma
 It is designed to work as well on touch devices such as mobile phones or tablets.
 
 ## Usage
-As you can see in the example files, you will need to include the JavaScript file `jquery.multiscroll.js` (or the minified version `jquery.multiscroll.min.js`) and the css file `jquery.multiscroll.css` of the plugin, as well as [jQuery](http://jquery.com/). Optionally, you can add the [jQuery UI library](http://jqueryui.com/) in case you want to use other easing effects apart from the ones included in the jQuery library which are the `linear` or `swing` effects. (`easeInQuart` is active by default, so you would need [jQuery UI library](http://jqueryui.com/) or the customized version  which is included in the vendors folder under the name `jquery.easings.min.js`.)
+As you can see in the example files, you will need to include the JavaScript file `jquery.multiscroll.js` (or the minified version `jquery.multiscroll.min.js`) and the css file `jquery.multiscroll.css` of the plugin, as well as [jQuery](https://jquery.com/). Optionally, you can add the [jQuery UI library](https://jqueryui.com/) in case you want to use other easing effects apart from the ones included in the jQuery library which are the `linear` or `swing` effects. (`easeInQuart` is active by default, so you would need [jQuery UI library](https://jqueryui.com/) or the customized version  which is included in the vendors folder under the name `jquery.easings.min.js`.)
 
 ###Including files:
 ```html
 <link rel="stylesheet" type="text/css" href="jquery.multiscroll.css" />
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
 <!-- This following line is needed in case of using the default easing option or when using another
  one rather than "linear" or "swing". You can also add the full jQuery UI instead of this file if you prefer -->
@@ -114,7 +114,7 @@ $(document).ready(function() {
 #### Using anchor links
 In order to create links to certain sections, if you are using multiscroll.js with anchor links for the sections (using the `anchors` option), then you will be able to use anchor links also to navigate directly to a certain section by using the URL.
 
-You can do it by creating accessing to the URL by adding the anchor. For example: `http://youriste.com/#secondSection`.
+You can do it by creating accessing to the URL by adding the anchor. For example: `https://youriste.com/#secondSection`.
 
 **Be careful!** `data-anchor` tags can not have the same value as any ID element on the site (or NAME element for IE).
 
@@ -137,7 +137,7 @@ $('#multiscroll').multiscroll({
 - `anchors`: (default `[]`) Defines the anchor links (#example) to be shown on the URL for each section. Using anchors forward and backward navigation will also be possible through the browser. This option also allows users to bookmark a specific section. **Be careful!** if you use anchors, they can not have the same value as any ID element on the site (or NAME element for IE).
 
 - `easing`: (default `easeInQuart`) Defines the transition effect to use for the vertical and horizontal scrolling.
-It requires the file `vendors/jquery.easings.min.js` or [jQuery UI](http://jqueryui.com/) for using some of its transitions. Other libraries could be used instead.
+It requires the file `vendors/jquery.easings.min.js` or [jQuery UI](https://jqueryui.com/) for using some of its transitions. Other libraries could be used instead.
 
 - `loopTop`: (default `false`) Defines whether scrolling up in the first section should scroll to the last one or not.
 
@@ -337,11 +337,11 @@ Example:
 ## Who is using multiscroll.js
 If you want your page to be listed here. Please <a href="mailto:alvaro@alvarotrigo.com">contact me</a> with the URL
 
-- http://homecoming.nust.edu.pk/
-- http://www.lob.com.mx/primavera15
-- http://www.proviotic.com/
-- http://noisacco.fr/mumm/#first
-- http://designova.net/reflex/index07.html
+- https://homecoming.nust.edu.pk/
+- https://www.lob.com.mx/primavera15
+- https://www.proviotic.com/
+- https://noisacco.fr/mumm/#first
+- https://designova.net/reflex/index07.html
 
 ## Donations
 Donations would be more than welcome :)

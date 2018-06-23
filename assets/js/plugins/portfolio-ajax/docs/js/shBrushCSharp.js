@@ -1,8 +1,8 @@
 /*
  * JsMin
  * Javascript Compressor
- * http://www.crockford.com/
- * http://www.smallsharptools.com/
+ * https://www.crockford.com/
+ * https://www.smallsharptools.com/
 */
 
 dp.sh.Brushes.CSharp=function()

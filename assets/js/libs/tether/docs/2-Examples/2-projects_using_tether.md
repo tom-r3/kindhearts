@@ -4,20 +4,20 @@ Here at HubSpot we have built a bunch of libraries on top of Tether,
 both because we wanted Tether-performance, and because we saw opportunities
 to improve on what was available in the client-side ecosystem.
 
-### [Select](http://github.hubspot.com/select/docs/welcome)
+### [Select](https://github.hubspot.com/select/docs/welcome)
 
 Select is a replacement for native browser select elements that is fully stylable.
 
-### [Shepherd](http://github.hubspot.com/shepherd/docs/welcome)
+### [Shepherd](https://github.hubspot.com/shepherd/docs/welcome)
 
 Shepherd is a library for making tours of your app to help onboard users and show off
 new features.
 
-### [Tooltip](http://github.hubspot.com/tooltip/docs/welcome)
+### [Tooltip](https://github.hubspot.com/tooltip/docs/welcome)
 
 A simple, easy-to-use implementation of tooltips that works well.
 
-### [Drop](http://github.hubspot.com/drop/docs/welcome)
+### [Drop](https://github.hubspot.com/drop/docs/welcome)
 
 Where Tether does general-purpose positioning, Drop assumes that you are interested
 in making something which pops up next to something the user clicks or hovers on.

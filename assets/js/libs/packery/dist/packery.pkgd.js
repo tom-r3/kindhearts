@@ -5,7 +5,7 @@
  * Licensed GPLv3 for open source use
  * or Flickity Commercial License for commercial use
  *
- * http://packery.metafizzy.co
+ * https://packery.metafizzy.co
  * Copyright 2015 Metafizzy
  */
 
@@ -238,7 +238,7 @@ if ( typeof define === 'function' && define.amd ) {
 /*!
  * getStyleProperty v1.0.4
  * original by kangax
- * http://perfectionkills.com/feature-testing-css-properties/
+ * https://perfectionkills.com/feature-testing-css-properties/
  * MIT license
  */
 
@@ -391,7 +391,7 @@ function setup() {
         if ( !style ) {
           logError( 'Style returned ' + style +
             '. Are you running this code in a hidden iframe on Firefox? ' +
-            'See http://bit.ly/getsizebug1' );
+            'See https://bit.ly/getsizebug1' );
         }
         return style;
       };
@@ -627,8 +627,8 @@ if ( typeof define === 'function' && define.amd ) {
 
 /*!
  * EventEmitter v4.2.11 - git.io/ee
- * Unlicense - http://unlicense.org/
- * Oliver Caldwell - http://oli.me.uk/
+ * Unlicense - https://unlicense.org/
+ * Oliver Caldwell - https://oli.me.uk/
  * @preserve
  */
 
@@ -1397,7 +1397,7 @@ utils.removeFrom = function( ary, obj ) {
 
 // ----- isElement ----- //
 
-// http://stackoverflow.com/a/384380/182183
+// https://stackoverflow.com/a/384380/182183
 utils.isElement = ( typeof HTMLElement == 'function' || typeof HTMLElement == 'object' ) ?
   function isElementDOM2( obj ) {
     return obj instanceof HTMLElement;
@@ -1507,7 +1507,7 @@ utils.debounceMethod = function( _class, methodName, threshold ) {
 
 // ----- htmlInit ----- //
 
-// http://jamesroberts.name/blog/2010/02/22/string-functions-for-javascript-trim-to-camel-case-to-dashed-and-to-underscore/
+// https://jamesroberts.name/blog/2010/02/22/string-functions-for-javascript-trim-to-camel-case-to-dashed-and-to-underscore/
 utils.toDashed = function( str ) {
   return str.replace( /(.)([A-Z])/g, function( match, $1, $2 ) {
     return $1 + '-' + $2;
@@ -1898,7 +1898,7 @@ Item.prototype._transition = function( args ) {
   // set from styles
   if ( args.from ) {
     this.css( args.from );
-    // force redraw. http://blog.alexmaccaw.com/css-transitions
+    // force redraw. https://blog.alexmaccaw.com/css-transitions
     var h = this.element.offsetHeight;
     // hack for JSHint to hush about unused var
     h = null;
@@ -2772,7 +2772,7 @@ Outlayer.prototype.unbindResize = function() {
 };
 
 // original debounce by John Hann
-// http://unscriptable.com/index.php/2009/03/20/debouncing-javascript-methods/
+// https://unscriptable.com/index.php/2009/03/20/debouncing-javascript-methods/
 
 // this fires every resize
 Outlayer.prototype.onresize = function() {
@@ -3148,7 +3148,7 @@ Rect.prototype.overlaps = function( rect ) {
   var rectRight = rect.x + rect.width;
   var rectBottom = rect.y + rect.height;
 
-  // http://stackoverflow.com/a/306332
+  // https://stackoverflow.com/a/306332
   return this.x < rectRight &&
     thisRight > rect.x &&
     this.y < rectBottom &&
@@ -3584,7 +3584,7 @@ return Item;
  * Licensed GPLv3 for open source use
  * or Flickity Commercial License for commercial use
  *
- * http://packery.metafizzy.co
+ * https://packery.metafizzy.co
  * Copyright 2015 Metafizzy
  */
 

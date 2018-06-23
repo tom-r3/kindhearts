@@ -5,7 +5,7 @@
     "url": "https://github.com/wbotelhos/raty/issues"
   },
 
-  "contributors" : ["Washington Botelho <wbotelhos@gmail.com> (http://wbotelhos.com)"],
+  "contributors" : ["Washington Botelho <wbotelhos@gmail.com> (https://wbotelhos.com)"],
   "demos"        : ["demo.html"],
 
   "dependencies" : {
@@ -36,7 +36,7 @@
   "keywords"    : ["raty", "rating", "star"],
   "license"     : "MIT",
   "main"        : "lib/jquery.raty.js",
-  "maintainers" : ["Washington Botelho <wbotelhos@gmail.com> (http://wbotelhos.com)"],
+  "maintainers" : ["Washington Botelho <wbotelhos@gmail.com> (https://wbotelhos.com)"],
   "name"        : "raty",
 
   "repository": {

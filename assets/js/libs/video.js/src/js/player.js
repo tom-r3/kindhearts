@@ -205,7 +205,7 @@ vjs.Player.prototype.getTagSettings = function(tag){
 
     for (i=0,j=children.length; i<j; i++) {
       child = children[i];
-      // Change case needed: http://ejohn.org/blog/nodename-case-sensitivity/
+      // Change case needed: https://ejohn.org/blog/nodename-case-sensitivity/
       childName = child.nodeName.toLowerCase();
       if (childName === 'source') {
         options['sources'].push(vjs.getElementAttributes(child));
@@ -233,7 +233,7 @@ vjs.Player.prototype.createEl = function(){
   attrs = vjs.getElementAttributes(tag);
   vjs.obj.each(attrs, function(attr) {
     // workaround so we don't totally break IE7
-    // http://stackoverflow.com/questions/3653444/css-styles-not-applied-on-dynamic-elements-in-internet-explorer-7
+    // https://stackoverflow.com/questions/3653444/css-styles-not-applied-on-dynamic-elements-in-internet-explorer-7
     if (attr == 'class') {
       el.className = attrs[attr];
     } else {
@@ -743,7 +743,7 @@ vjs.Player.prototype.remainingTime = function(){
   return this.duration() - this.currentTime();
 };
 
-// http://dev.w3.org/html5/spec/video.html#dom-media-buffered
+// https://dev.w3.org/html5/spec/video.html#dom-media-buffered
 // Buffered returns a timerange object.
 // Kind of like an array of portions of the video that have been downloaded.
 
@@ -1109,13 +1109,13 @@ vjs.Player.prototype.selectSource = function(sources){
  * the current playback technology (HTML5/Flash) can support the source you
  * provide. Currently only MP4 files can be used in both HTML5 and Flash.
  *
- *     myPlayer.src("http://www.example.com/path/to/video.mp4");
+ *     myPlayer.src("https://www.example.com/path/to/video.mp4");
  *
  * **Source Object (or element):** A javascript object containing information
  * about the source file. Use this method if you want the player to determine if
  * it can support the file using the type information.
  *
- *     myPlayer.src({ type: "video/mp4", src: "http://www.example.com/path/to/video.mp4" });
+ *     myPlayer.src({ type: "video/mp4", src: "https://www.example.com/path/to/video.mp4" });
  *
  * **Array of Source Objects:** To provide multiple versions of the source so
  * that it can be played using HTML5 across browsers you can use an array of
@@ -1123,9 +1123,9 @@ vjs.Player.prototype.selectSource = function(sources){
  * file.
  *
  *     myPlayer.src([
- *       { type: "video/mp4", src: "http://www.example.com/path/to/video.mp4" },
- *       { type: "video/webm", src: "http://www.example.com/path/to/video.webm" },
- *       { type: "video/ogg", src: "http://www.example.com/path/to/video.ogv" }
+ *       { type: "video/mp4", src: "https://www.example.com/path/to/video.mp4" },
+ *       { type: "video/webm", src: "https://www.example.com/path/to/video.webm" },
+ *       { type: "video/ogg", src: "https://www.example.com/path/to/video.ogv" }
  *     ]);
  *
  * @param  {String|Object|Array=} source The source URL, object, or array of sources
@@ -1141,7 +1141,7 @@ vjs.Player.prototype.src = function(source){
   if (vjs.obj.isArray(source)) {
     this.sourceList_(source);
 
-  // case: URL String (http://myvideo...)
+  // case: URL String (https://myvideo...)
   } else if (typeof source === 'string') {
     // create a source object from the string
     this.src({ src: source });
@@ -1223,7 +1223,7 @@ vjs.Player.prototype.load = function(){
 };
 
 /**
- * Returns the fully qualified URL of the current source value e.g. http://mysite.com/video.mp4
+ * Returns the fully qualified URL of the current source value e.g. https://mysite.com/video.mp4
  * Can be used in conjuction with `currentType` to assist in rebuilding the current source object.
  * @return {String} The current source
  */
@@ -1299,7 +1299,7 @@ vjs.Player.prototype.poster_;
  *     var currentPoster = myPlayer.poster();
  *
  *     // setting
- *     myPlayer.poster('http://example.com/myImage.jpg');
+ *     myPlayer.poster('https://example.com/myImage.jpg');
  *
  * @param  {String=} [src] Poster image source URL
  * @return {String} poster URL when getting
@@ -1574,7 +1574,7 @@ vjs.Player.prototype.listenForUserActivity = function(){
   // the mousemove/touchmove function itself, to prevent performance degradation.
   // `this.reportUserActivity` simply sets this.userActivity_ to true, which
   // then gets picked up by this loop
-  // http://ejohn.org/blog/learning-from-twitter/
+  // https://ejohn.org/blog/learning-from-twitter/
   activityCheck = this.setInterval(function() {
     // Check to see if mouse/touch activity has happened
     if (this.userActivity_) {
@@ -1705,7 +1705,7 @@ vjs.Player.prototype.readyState = function(){
 
 /**
  * Get an array of associated text tracks. captions, subtitles, chapters, descriptions
- * http://www.w3.org/html/wg/drafts/html/master/embedded-content-0.html#dom-media-texttracks
+ * https://www.w3.org/html/wg/drafts/html/master/embedded-content-0.html#dom-media-texttracks
  * @return {Array}           Array of track objects
  */
 vjs.Player.prototype.textTracks = function(){
@@ -1721,7 +1721,7 @@ vjs.Player.prototype.remoteTextTracks = function() {
 /**
  * Add a text track
  * In addition to the W3C settings we allow adding additional info through options.
- * http://www.w3.org/html/wg/drafts/html/master/embedded-content-0.html#dom-media-addtexttrack
+ * https://www.w3.org/html/wg/drafts/html/master/embedded-content-0.html#dom-media-addtexttrack
  * @param {String}  kind        Captions, subtitles, chapters, descriptions, or metadata
  * @param {String=} label       Optional label
  * @param {String=} language    Optional language

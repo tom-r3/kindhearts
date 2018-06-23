@@ -2,11 +2,11 @@
 ![preview](https://raw.github.com/alvarotrigo/fullPage.js/master/examples/imgs/intro.png)
 ![compatibility](https://raw.github.com/alvarotrigo/fullPage.js/master/examples/imgs/compatible.gif)
 
-![javascript.fullPage.js version](http://img.shields.io/badge/fullPage.js-v0.0.5-brightgreen.svg)
-[![License](http://img.shields.io/badge/License-MIT-blue.svg)](http://opensource.org/licenses/MIT)
+![javascript.fullPage.js version](https://img.shields.io/badge/fullPage.js-v0.0.5-brightgreen.svg)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 6Kb gziped!
 
-- [Live demo](http://alvarotrigo.com/fullPage/pure-javascript/)
+- [Live demo](https://alvarotrigo.com/fullPage/pure-javascript/)
 
 
 Invite me to a coffee

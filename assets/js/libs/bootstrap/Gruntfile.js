@@ -1,6 +1,6 @@
 /*!
  * Bootstrap's Gruntfile
- * http://getbootstrap.com
+ * https://getbootstrap.com
  * Copyright 2013-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
@@ -25,7 +25,7 @@ module.exports = function (grunt) {
     browsers: [
       //
       // Official browser support policy:
-      // http://v4-alpha.getbootstrap.com/getting-started/browsers-devices/#supported-browsers
+      // https://v4-alpha.getbootstrap.com/getting-started/browsers-devices/#supported-browsers
       //
       'Chrome >= 35', // Exact version number here is kinda arbitrary
       // Rather than using Autoprefixer's native "Firefox ESR" version specifier string,
@@ -395,7 +395,7 @@ module.exports = function (grunt) {
           concurrency: 10,
           maxRetries: 3,
           maxPollRetries: 4,
-          urls: ['http://127.0.0.1:3000/js/tests/index.html?hidepassed'],
+          urls: ['https://127.0.0.1:3000/js/tests/index.html?hidepassed'],
           browsers: grunt.file.readYAML('grunt/sauce_browsers.yml')
         }
       }

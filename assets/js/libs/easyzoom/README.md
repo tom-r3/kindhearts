@@ -30,9 +30,9 @@ Thanks also for contributions from:
 
 - [Steve Lindstrom](https://github.com/slindstr)
 
-[1]: http://github.com/i-like-robots/EasyZoom/
-[2]: http://www.jquery.com
-[3]: http://cssglobe.com/lab/easyzoom/easyzoom.html
-[4]: http://grakalic.com
-[5]: http://opensource.org/licenses/MIT
-[6]: http://maketea.co.uk
+[1]: https://github.com/i-like-robots/EasyZoom/
+[2]: https://www.jquery.com
+[3]: https://cssglobe.com/lab/easyzoom/easyzoom.html
+[4]: https://grakalic.com
+[5]: https://opensource.org/licenses/MIT
+[6]: https://maketea.co.uk

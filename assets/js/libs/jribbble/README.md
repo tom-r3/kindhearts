@@ -1,7 +1,7 @@
 # Jribbble [![Build Status](https://travis-ci.org/tylergaw/jribbble.svg)](https://travis-ci.org/tylergaw/jribbble)
-A jQuery plugin to retrieve info from the [Dribbble API](http://developer.dribbble.com/v1/)
+A jQuery plugin to retrieve info from the [Dribbble API](https://developer.dribbble.com/v1/)
 
-Live demos available on [Codepen.io](http://codepen.io/collection/nWvjrg/)
+Live demos available on [Codepen.io](https://codepen.io/collection/nWvjrg/)
 
 ## Dependencies
 * jQuery 1.8+
@@ -18,7 +18,7 @@ or direct download:
 - [jribbble.js](https://github.com/tylergaw/jribbble/blob/master/dist/jribbble.js)
 
 ## Using Jribbble
-Jribbble covers all non-authenticated methods of the [Dribbble API](http://developer.dribbble.com/v1/). All available methods are accessed from the `jribbble` object which is a member of the `jQuery` or `$` object.
+Jribbble covers all non-authenticated methods of the [Dribbble API](https://developer.dribbble.com/v1/). All available methods are accessed from the `jribbble` object which is a member of the `jQuery` or `$` object.
 
 *Note:* If you need access to Dribbble methods using `POST` or `PUT` you will need
 to access the API using OAuth. Jribbble only supports unauthenticated `GET` methods.
@@ -110,8 +110,8 @@ $.jribbble.setToken('123456789');
 **Description:** Gets a list of shots.
 
 **Parameters:**
-- id - *optional* `String or Int` A shot id or a shot list name. See [API Docs](http://developer.dribbble.com/v1/shots/#list-shots) for list names.
-- options - *optional* `Object` Key:value pairs of options that will be included in the request as query parameters. See [API Docs](http://developer.dribbble.com/v1/shots/#list-shots) for a full list.
+- id - *optional* `String or Int` A shot id or a shot list name. See [API Docs](https://developer.dribbble.com/v1/shots/#list-shots) for list names.
+- options - *optional* `Object` Key:value pairs of options that will be included in the request as query parameters. See [API Docs](https://developer.dribbble.com/v1/shots/#list-shots) for a full list.
 
 **Example usage:**
 ```javascript
@@ -120,7 +120,7 @@ $.jribbble.shots(2055068).then(function(res) {
   // Do cool stuff with response
 });
 ```
-Live example [on Codepen.io](http://codepen.io/tylergaw/pen/KpMmjZ?editors=101).
+Live example [on Codepen.io](https://codepen.io/tylergaw/pen/KpMmjZ?editors=101).
 
 ```javascript
 // Get the second page of debut shots from the past month sorted by number of
@@ -134,7 +134,7 @@ $.jribbble.shots('debuts', {
 });
 ```
 
-Live example [on Codepen.io](http://codepen.io/tylergaw/pen/RPRVew/?editors=101).
+Live example [on Codepen.io](https://codepen.io/tylergaw/pen/RPRVew/?editors=101).
 
 #### `$.jribbble.shots(shotId).attachments(attachmentId, options)`
 
@@ -152,7 +152,7 @@ $.jribbble.shots(2066347).attachments().then(function(res) {
   // Do cool stuff with response
 });
 ```
-Live example [on Codepen.io](http://codepen.io/tylergaw/pen/XbKgJy/?editors=101).
+Live example [on Codepen.io](https://codepen.io/tylergaw/pen/XbKgJy/?editors=101).
 
 ```javascript
 // Get a single attachment for a shot
@@ -161,7 +161,7 @@ $.jribbble.shots(2066347).attachments(370029).then(function(res) {
 });
 ```
 
-Live example [on Codepen.io](http://codepen.io/tylergaw/pen/ZGOyGM/?editors=101).
+Live example [on Codepen.io](https://codepen.io/tylergaw/pen/ZGOyGM/?editors=101).
 
 #### `$.jribbble.shots(shotId).buckets(options)`
 
@@ -179,7 +179,7 @@ $.jribbble.shots(2067006).buckets({'per_page': 36}).then(function(res) {
 });
 ```
 
-Live example [on Codepen.io](http://codepen.io/tylergaw/pen/ZGOayV/?editors=101).
+Live example [on Codepen.io](https://codepen.io/tylergaw/pen/ZGOayV/?editors=101).
 
 #### `$.jribbble.shots(shotId).comments(commentId, options)`
 
@@ -198,7 +198,7 @@ $.jribbble.shots(2067969).comments().then(function(res) {
 });
 ```
 
-Live example [on Codepen.io](http://codepen.io/tylergaw/pen/LVZrBq/?editors=101).
+Live example [on Codepen.io](https://codepen.io/tylergaw/pen/LVZrBq/?editors=101).
 
 ```javascript
 // Get a single comment for a shot
@@ -207,7 +207,7 @@ $.jribbble.shots(2067969).comments(4448286).then(function(res) {
 });
 ```
 
-Live example [on Codepen.io](http://codepen.io/tylergaw/pen/yNJERz/?editors=101).
+Live example [on Codepen.io](https://codepen.io/tylergaw/pen/yNJERz/?editors=101).
 
 #### `$.jribbble.shots(shotId).comments(commentId).likes(options)`
 
@@ -226,7 +226,7 @@ $.jribbble.shots(2069352).comments(4450321).likes().then(function(res) {
 });
 ```
 
-Live example [on Codepen.io](http://codepen.io/tylergaw/pen/LVZwQL/?editors=101).
+Live example [on Codepen.io](https://codepen.io/tylergaw/pen/LVZwQL/?editors=101).
 
 #### `$.jribbble.shots(shotId).likes(options)`
 
@@ -244,7 +244,7 @@ $.jribbble.shots(2058881).likes().then(function(res) {
 });
 ```
 
-Live example [on Codepen.io](http://codepen.io/tylergaw/pen/jPVVZb/?editors=101).
+Live example [on Codepen.io](https://codepen.io/tylergaw/pen/jPVVZb/?editors=101).
 
 #### `$.jribbble.shots(shotId).projects(options)`
 
@@ -262,7 +262,7 @@ $.jribbble.shots(2077496).projects().then(function(res) {
 });
 ```
 
-Live example [on Codepen.io](http://codepen.io/tylergaw/pen/qdqqYo/?editors=101).
+Live example [on Codepen.io](https://codepen.io/tylergaw/pen/qdqqYo/?editors=101).
 
 #### `$.jribbble.shots(shotId).rebounds(options)`
 
@@ -280,7 +280,7 @@ $.jribbble.shots(2046896).rebounds().then(function(res) {
 });
 ```
 
-Live example [on Codepen.io](http://codepen.io/tylergaw/pen/XbNpqx/?editors=101).
+Live example [on Codepen.io](https://codepen.io/tylergaw/pen/XbNpqx/?editors=101).
 
 ### Users
 
@@ -298,7 +298,7 @@ $.jribbble.users('tylergaw').then(function(res) {
 });
 ```
 
-Live example [on Codepen.io](http://codepen.io/tylergaw/pen/bdBrYK/?editors=101).
+Live example [on Codepen.io](https://codepen.io/tylergaw/pen/bdBrYK/?editors=101).
 
 #### `$.jribbble.users(userId).shots(options)`
 
@@ -315,7 +315,7 @@ $.jribbble.users('tylergaw').shots().then(function(res) {
 });
 ```
 
-Live example [on Codepen.io](http://codepen.io/tylergaw/pen/NqpzvE/?editors=101).
+Live example [on Codepen.io](https://codepen.io/tylergaw/pen/NqpzvE/?editors=101).
 
 #### `$.jribbble.users(userId).buckets(options)`
 
@@ -332,7 +332,7 @@ $.jribbble.users('markbult').buckets().then(function(res) {
 });
 ```
 
-Live example [on Codepen.io](http://codepen.io/tylergaw/pen/bdBrXz/?editors=101).
+Live example [on Codepen.io](https://codepen.io/tylergaw/pen/bdBrXz/?editors=101).
 
 #### `$.jribbble.users(userId).projects(options)`
 
@@ -349,7 +349,7 @@ $.jribbble.users('creativemints').projects().then(function(res) {
 });
 ```
 
-Live example [on Codepen.io](http://codepen.io/tylergaw/pen/xGqzjR/?editors=101).
+Live example [on Codepen.io](https://codepen.io/tylergaw/pen/xGqzjR/?editors=101).
 
 #### `$.jribbble.users(userId).teams(options)`
 
@@ -366,7 +366,7 @@ $.jribbble.users('veerlepieters').teams().then(function(res) {
 });
 ```
 
-Live example [on Codepen.io](http://codepen.io/tylergaw/pen/RPpJJQ/?editors=101).
+Live example [on Codepen.io](https://codepen.io/tylergaw/pen/RPpJJQ/?editors=101).
 
 #### `$.jribbble.users(userId).likes(options)`
 
@@ -383,7 +383,7 @@ $.jribbble.users('op45').likes().then(function(res) {
 });
 ```
 
-Live example [on Codepen.io](http://codepen.io/tylergaw/pen/WvpyKm/?editors=101).
+Live example [on Codepen.io](https://codepen.io/tylergaw/pen/WvpyKm/?editors=101).
 
 #### `$.jribbble.users(userId).followers(options)`
 
@@ -400,7 +400,7 @@ $.jribbble.users('tylergaw').followers().then(function(res) {
 });
 ```
 
-Live example [on Codepen.io](http://codepen.io/tylergaw/pen/ZGBJdY/?editors=101).
+Live example [on Codepen.io](https://codepen.io/tylergaw/pen/ZGBJdY/?editors=101).
 
 #### `$.jribbble.users(userId).following(options)`
 
@@ -417,7 +417,7 @@ $.jribbble.users('tylergaw').following().then(function(res) {
 });
 ```
 
-Live example [on Codepen.io](http://codepen.io/tylergaw/pen/jPVLdR/?editors=101).
+Live example [on Codepen.io](https://codepen.io/tylergaw/pen/jPVLdR/?editors=101).
 
 #### `$.jribbble.users(userId).isFollowing(targetUserId)`
 
@@ -434,7 +434,7 @@ $.jribbble.users('tylergaw').isFollowing('jimniels').then(function(res) {
 });
 ```
 
-Live example [on Codepen.io](http://codepen.io/tylergaw/pen/bdBrjx/?editors=101).
+Live example [on Codepen.io](https://codepen.io/tylergaw/pen/bdBrjx/?editors=101).
 
 ### Teams
 
@@ -453,7 +453,7 @@ $.jribbble.teams('eight2eight').members(options).then(function(res) {
 });
 ```
 
-Live example [on Codepen.io](http://codepen.io/tylergaw/pen/bdBrgv/?editors=101).
+Live example [on Codepen.io](https://codepen.io/tylergaw/pen/bdBrgv/?editors=101).
 
 #### `$.jribbble.teams(teamId).shots(options)`
 
@@ -470,7 +470,7 @@ $.jribbble.teams('eight2eight').shots(options).then(function(res) {
 });
 ```
 
-Live example [on Codepen.io](http://codepen.io/tylergaw/pen/bdBrWM/?editors=101).
+Live example [on Codepen.io](https://codepen.io/tylergaw/pen/bdBrWM/?editors=101).
 
 ### Buckets
 
@@ -488,7 +488,7 @@ $.jribbble.buckets(114550).then(function(res) {
 });
 ```
 
-Live example [on Codepen.io](http://codepen.io/tylergaw/pen/mJORor/?editors=101).
+Live example [on Codepen.io](https://codepen.io/tylergaw/pen/mJORor/?editors=101).
 
 #### `$.jribbble.buckets(bucketId).shots(options)`
 
@@ -506,7 +506,7 @@ $.jribbble.buckets(114550).shots(options).then(function(res) {
 });
 ```
 
-Live example [on Codepen.io](http://codepen.io/tylergaw/pen/ZGBLPq/?editors=101).
+Live example [on Codepen.io](https://codepen.io/tylergaw/pen/ZGBLPq/?editors=101).
 
 ### Projects
 
@@ -524,7 +524,7 @@ $.jribbble.projects(267945).then(function(res) {
 });
 ```
 
-Live example [on Codepen.io](http://codepen.io/tylergaw/pen/MwbJPB/?editors=101).
+Live example [on Codepen.io](https://codepen.io/tylergaw/pen/MwbJPB/?editors=101).
 
 #### `$.jribbble.projects(projectId).shots(options)`
 
@@ -542,7 +542,7 @@ $.jribbble.projects(267945).shots(options).then(function(res) {
 });
 ```
 
-Live example [on Codepen.io](http://codepen.io/tylergaw/pen/mJORaE/?editors=101).
+Live example [on Codepen.io](https://codepen.io/tylergaw/pen/mJORaE/?editors=101).
 
 ---------------------------------------------------------------------------
 

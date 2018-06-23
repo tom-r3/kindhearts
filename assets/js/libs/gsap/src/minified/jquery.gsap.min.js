@@ -1,12 +1,12 @@
 /*!
  * VERSION: 0.1.12
  * DATE: 2015-08-11
- * UPDATES AND DOCS AT: http://greensock.com/jquery-gsap-plugin/
+ * UPDATES AND DOCS AT: https://greensock.com/jquery-gsap-plugin/
  *
  * Requires TweenLite version 1.8.0 or higher and CSSPlugin.
  *
  * @license Copyright (c) 2013-2016, GreenSock. All rights reserved.
- * This work is subject to the terms at http://greensock.com/standard-license or for
+ * This work is subject to the terms at https://greensock.com/standard-license or for
  * Club GreenSock members, the software agreement that was issued with your membership.
  *
  * @author: Jack Doyle, jack@greensock.com

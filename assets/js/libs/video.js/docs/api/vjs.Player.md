@@ -172,7 +172,7 @@ _inherited from_: [src/js/component.js#L826](https://github.com/videojs/video.js
 ### addTextTrack( kind, [label], [language] )
 > Add a text track
 > In addition to the W3C settings we allow adding additional info through options.
-> http://www.w3.org/html/wg/drafts/html/master/embedded-content-0.html#dom-media-addtexttrack
+> https://www.w3.org/html/wg/drafts/html/master/embedded-content-0.html#dom-media-addtexttrack
 
 ##### PARAMETERS: 
 * __kind__ `String` Captions, subtitles, chapters, descriptions, or metadata
@@ -344,7 +344,7 @@ _inherited from_: [src/js/component.js#L200](https://github.com/videojs/video.js
 ---
 
 ### currentSrc()
-> Returns the fully qualified URL of the current source value e.g. http://mysite.com/video.mp4
+> Returns the fully qualified URL of the current source value e.g. https://mysite.com/video.mp4
 > Can be used in conjuction with `currentType` to assist in rebuilding the current source object.
 
 ##### RETURNS: 
@@ -971,7 +971,7 @@ _inherited from_: [src/js/component.js#L126](https://github.com/videojs/video.js
 >     var currentPoster = myPlayer.poster();
 > 
 >     // setting
->     myPlayer.poster('http://example.com/myImage.jpg');
+>     myPlayer.poster('https://example.com/myImage.jpg');
 
 ##### PARAMETERS: 
 * __src__ `String` _(OPTIONAL)_ Poster image source URL
@@ -1173,13 +1173,13 @@ _inherited from_: [src/js/component.js#L847](https://github.com/videojs/video.js
 > the current playback technology (HTML5/Flash) can support the source you
 > provide. Currently only MP4 files can be used in both HTML5 and Flash.
 > 
->     myPlayer.src("http://www.example.com/path/to/video.mp4");
+>     myPlayer.src("https://www.example.com/path/to/video.mp4");
 > 
 > **Source Object (or element):** A javascript object containing information
 > about the source file. Use this method if you want the player to determine if
 > it can support the file using the type information.
 > 
->     myPlayer.src({ type: "video/mp4", src: "http://www.example.com/path/to/video.mp4" });
+>     myPlayer.src({ type: "video/mp4", src: "https://www.example.com/path/to/video.mp4" });
 > 
 > **Array of Source Objects:** To provide multiple versions of the source so
 > that it can be played using HTML5 across browsers you can use an array of
@@ -1187,9 +1187,9 @@ _inherited from_: [src/js/component.js#L847](https://github.com/videojs/video.js
 > file.
 > 
 >     myPlayer.src([
->       { type: "video/mp4", src: "http://www.example.com/path/to/video.mp4" },
->       { type: "video/webm", src: "http://www.example.com/path/to/video.webm" },
->       { type: "video/ogg", src: "http://www.example.com/path/to/video.ogv" }
+>       { type: "video/mp4", src: "https://www.example.com/path/to/video.mp4" },
+>       { type: "video/webm", src: "https://www.example.com/path/to/video.webm" },
+>       { type: "video/ogg", src: "https://www.example.com/path/to/video.ogv" }
 >     ]);
 
 ##### PARAMETERS: 
@@ -1205,7 +1205,7 @@ _defined in_: [src/js/player.js#L1135](https://github.com/videojs/video.js/blob/
 
 ### textTracks()
 > Get an array of associated text tracks. captions, subtitles, chapters, descriptions
-> http://www.w3.org/html/wg/drafts/html/master/embedded-content-0.html#dom-media-texttracks
+> https://www.w3.org/html/wg/drafts/html/master/embedded-content-0.html#dom-media-texttracks
 
 ##### RETURNS: 
 * `Array` Array of track objects

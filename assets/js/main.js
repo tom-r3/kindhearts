@@ -303,7 +303,7 @@ function scrollEasing(){
                         y: finalScroll,
                         autoKill: true
                     },
-                    ease: Power1.easeOut, //For more easing functions see http://api.greensock.com/js/com/greensock/easing/package-detail.html
+                    ease: Power1.easeOut, //For more easing functions see https://api.greensock.com/js/com/greensock/easing/package-detail.html
                     autoKill: true,
                     overwrite: 5
                 });
@@ -1017,7 +1017,7 @@ function handleVideo() {
         
     $('.video-embed').each(function() {
         $(this).fitVids({
-            customSelector: "iframe[src^='//www.dailymotion.com'], iframe[src^='http:////www.dailymotion.com']"
+            customSelector: "iframe[src^='//www.dailymotion.com'], iframe[src^='https:////www.dailymotion.com']"
         });
         if ($(this).hasClass('full-video')) {
             $(this).height($(window).height());

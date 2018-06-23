@@ -4,7 +4,7 @@ jQuery easy ticker is a news ticker like plugin, which scrolls the list infinite
 
 ## Demo
 
-[Live plugin demo](http://www.aakashweb.com/demos/jquery-easy-ticker/) | [Plugin Home page](http://www.aakashweb.com/jquery-plugins/easy-ticker/)
+[Live plugin demo](https://www.aakashweb.com/demos/jquery-easy-ticker/) | [Plugin Home page](https://www.aakashweb.com/jquery-plugins/easy-ticker/)
 
 ## Features
 
@@ -55,11 +55,11 @@ $('.myWrapper').easyTicker({
 });
 ```
 
-[Demo](http://www.aakashweb.com/demos/jquery-easy-ticker/)
+[Demo](https://www.aakashweb.com/demos/jquery-easy-ticker/)
 
 ## Documentation
 
-Plugin's documentation is written in its official home page. Check it out in [this link](http://www.aakashweb.com/jquery-plugins/easy-ticker/)
+Plugin's documentation is written in its official home page. Check it out in [this link](https://www.aakashweb.com/jquery-plugins/easy-ticker/)
 
 ## Requirements
 
@@ -67,4 +67,4 @@ Plugin's documentation is written in its official home page. Check it out in [th
 
 ## License
 
-Copyright (c) 2014 [Aakash Chakravarthy](http://www.aakashweb.com/), released under the MIT License.
+Copyright (c) 2014 [Aakash Chakravarthy](https://www.aakashweb.com/), released under the MIT License.

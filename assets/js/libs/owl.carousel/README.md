@@ -1,4 +1,4 @@
-[![Stories in Ready](https://badge.waffle.io/smashingboxes/OwlCarousel2.png?label=ready&title=Ready)](http://waffle.io/smashingboxes/OwlCarousel2)
+[![Stories in Ready](https://badge.waffle.io/smashingboxes/OwlCarousel2.png?label=ready&title=Ready)](https://waffle.io/smashingboxes/OwlCarousel2)
 [![Build Status](https://travis-ci.org/smashingboxes/OwlCarousel2.svg)](https://travis-ci.org/smashingboxes/OwlCarousel2)
 
 ## Announcement.
@@ -7,13 +7,13 @@ Big announcement comming about maintainance of this project.  Stay tuned!
 
 ## Owl Carousel 2 Beta
 
-Touch enabled [jQuery](http://jquery.com/) plugin that lets you createbeautiful responsive carousel slider. **To get started, check out http://owlcarousel.owlgraphic.com.**
+Touch enabled [jQuery](https://jquery.com/) plugin that lets you createbeautiful responsive carousel slider. **To get started, check out https://owlcarousel.owlgraphic.com.**
 
 Please consider that the project is still in beta. The current status of the milestones can be found [here](https://github.com/OwlFonk/OwlCarousel2/milestones). If you want to use the [latest development](https://github.com/OwlFonk/OwlCarousel2/archive/develop.zip) see [building](#building).
 
 ## Quick start
 
-Download the [latest release](http://owlcarousel.owlgraphic.com/download/owl.carousel.zip) and put the required stylesheet at the [top](https://developer.yahoo.com/performance/rules.html#css_top) of your markup:
+Download the [latest release](https://owlcarousel.owlgraphic.com/download/owl.carousel.zip) and put the required stylesheet at the [top](https://developer.yahoo.com/performance/rules.html#css_top) of your markup:
 
 ```html
 <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css" />
@@ -40,7 +40,7 @@ Wrap your items (`div`, `a`, `img`, `span`, `li` etc.) with a container element 
 </div>
 ```
 
-Call the [plugin](http://learn.jquery.com/plugins/) function and your carousel is ready.
+Call the [plugin](https://learn.jquery.com/plugins/) function and your carousel is ready.
 
 ```javascript
 $(document).ready(function(){
@@ -50,16 +50,16 @@ $(document).ready(function(){
 
 ## Documentation
 
-The documentation, included in this repo in the root directory, is built with [Assemble](http://assemble.io/) and publicly available at http://owlcarousel.owlgraphic.com. The documentation may also be run locally.
+The documentation, included in this repo in the root directory, is built with [Assemble](https://assemble.io/) and publicly available at https://owlcarousel.owlgraphic.com. The documentation may also be run locally.
 
 ## Building
 
-This package comes with [Grunt](http://gruntjs.com/) and [Bower](http://bower.io/). The following tasks are available:
+This package comes with [Grunt](https://gruntjs.com/) and [Bower](https://bower.io/). The following tasks are available:
 
   * `default` compiles the CSS and JS into `/dist` and builds the doc.
   * `dist` compiles the CSS and JS into `/dist` only.
   * `watch` watches source files and builds them automatically whenever you save.
-  * `test` runs [JSHint](http://www.jshint.com/) and [QUnit](http://qunitjs.com/) tests headlessly in [PhantomJS](http://phantomjs.org/).
+  * `test` runs [JSHint](https://www.jshint.com/) and [QUnit](https://qunitjs.com/) tests headlessly in [PhantomJS](https://phantomjs.org/).
 
 To define which plugins are build into the distribution just edit `/_config.json` to fit your needs.
 
@@ -67,7 +67,7 @@ To define which plugins are build into the distribution just edit `/_config.json
 
 The [issue tracker](https://github.com/OwlFonk/OwlCarousel2/issues) is the preferred channel for bug reports, features requests and submitting pull requests.
 
-**Please do not use the issue tracker for personal support requests. Stack Overflow ([`owl-carousel`](http://stackoverflow.com/questions/tagged/owl-carousel)) is a better place to get help.**
+**Please do not use the issue tracker for personal support requests. Stack Overflow ([`owl-carousel`](https://stackoverflow.com/questions/tagged/owl-carousel)) is a better place to get help.**
 
 ### Bug reports
 
@@ -79,7 +79,7 @@ Guidelines for bug reports:
 
   2. Check if the issue has been fixed — try to reproduce it using the latest `develop` branch in the repository.
 
-  3. Isolate the problem — ideally create a reduced test case and a live example. This [JSFiddle](http://jsfiddle.net/eqbL6vLb/) and this [JS Bin](http://jsbin.com/xuxozu/1) are helpful templates you can fork or clone.
+  3. Isolate the problem — ideally create a reduced test case and a live example. This [JSFiddle](https://jsfiddle.net/eqbL6vLb/) and this [JS Bin](https://jsbin.com/xuxozu/1) are helpful templates you can fork or clone.
 
 Example:
 
@@ -107,7 +107,7 @@ Good pull requests are a fantastic help. They should remain focused in scope and
 
 Adhering to the following process is the best way to get your work included in the project:
 
-  1. [Fork](http://help.github.com/fork-a-repo/) the project, clone your fork, and configure the remotes:
+  1. [Fork](https://help.github.com/fork-a-repo/) the project, clone your fork, and configure the remotes:
 
     ```bash
     git clone https://github.com/<your-username>/OwlCarousel2.git
@@ -134,7 +134,7 @@ Adhering to the following process is the best way to get your work included in t
     grunt dist
     ```
 
-  5. Commit your changes in logical chunks. Please adhere to these [guidelines](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html). Use Git's [interactive rebase](https://help.github.com/articles/interactive-rebase) feature to tidy up your commits before making them public.
+  5. Commit your changes in logical chunks. Please adhere to these [guidelines](https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html). Use Git's [interactive rebase](https://help.github.com/articles/interactive-rebase) feature to tidy up your commits before making them public.
 
   6. Locally merge (or rebase) the upstream development branch into your topic branch:
 

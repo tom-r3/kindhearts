@@ -1,6 +1,6 @@
 /* 
  * jQuery - Easy Ticker plugin - v2.0
- * http://www.aakashweb.com/
+ * https://www.aakashweb.com/
  * Copyright 2014, Aakash Chakravarthy
  * Released under the MIT License.
  */

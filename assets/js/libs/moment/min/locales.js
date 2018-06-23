@@ -473,7 +473,7 @@
     //! moment.js locale configuration
     //! locale : belarusian (be)
     //! author : Dmitry Demidov : https://github.com/demidov91
-    //! author: Praleska: http://praleska.pro/
+    //! author: Praleska: https://praleska.pro/
     //! Author : Menelion Elensúle : https://github.com/Oire
 
     function be__plural(word, num) {
@@ -3096,7 +3096,7 @@
     //! moment.js locale configuration
     //! locale : Bahasa Indonesia (id)
     //! author : Mohammad Satrio Utomo : https://github.com/tyok
-    //! reference: http://id.wikisource.org/wiki/Pedoman_Umum_Ejaan_Bahasa_Indonesia_yang_Disempurnakan
+    //! reference: https://id.wikisource.org/wiki/Pedoman_Umum_Ejaan_Bahasa_Indonesia_yang_Disempurnakan
 
     var id = moment.defineLocale('id', {
         months : 'Januari_Februari_Maret_April_Mei_Juni_Juli_Agustus_September_Oktober_November_Desember'.split('_'),
@@ -3397,7 +3397,7 @@
     //! moment.js locale configuration
     //! locale : Boso Jowo (jv)
     //! author : Rony Lantip : https://github.com/lantip
-    //! reference: http://jv.wikipedia.org/wiki/Basa_Jawa
+    //! reference: https://jv.wikipedia.org/wiki/Basa_Jawa
 
     var jv = moment.defineLocale('jv', {
         months : 'Januari_Februari_Maret_April_Mei_Juni_Juli_Agustus_September_Oktober_Nopember_Desember'.split('_'),
@@ -5941,7 +5941,7 @@
         ordinal : function (number) {
             return number + 'வது';
         },
-        // refer http://ta.wikipedia.org/s/1er1
+        // refer https://ta.wikipedia.org/s/1er1
         meridiemParse: /யாமம்|வைகறை|காலை|நண்பகல்|எற்பாடு|மாலை/,
         meridiem : function (hour, minute, isLower) {
             if (hour < 2) {

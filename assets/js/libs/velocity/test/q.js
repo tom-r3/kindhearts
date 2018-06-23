@@ -2,11 +2,11 @@
 /*!
  *
  * Copyright 2009-2012 Kris Kowal under the terms of the MIT
- * license found at http://github.com/kriskowal/q/raw/master/LICENSE
+ * license found at https://github.com/kriskowal/q/raw/master/LICENSE
  *
  * With parts by Tyler Close
  * Copyright 2007-2009 Tyler Close under the terms of the MIT X license found
- * at http://www.opensource.org/licenses/mit-license.html
+ * at https://www.opensource.org/licenses/mit-license.html
  * Forked at ref_send.js version: 2009-05-11
  *
  * With parts by Mark Miller
@@ -16,7 +16,7 @@
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
  *
- * http://www.apache.org/licenses/LICENSE-2.0
+ * https://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
@@ -176,7 +176,7 @@ var nextTick =(function () {
 
     } else if (typeof MessageChannel !== "undefined") {
         // modern browsers
-        // http://www.nonblocking.io/2011/06/windownexttick.html
+        // https://www.nonblocking.io/2011/06/windownexttick.html
         var channel = new MessageChannel();
         // At least Safari Version 6.0.5 (8536.30.1) intermittently cannot create
         // working message ports the first time a page loads.
@@ -214,7 +214,7 @@ var nextTick =(function () {
 // However, this **might** have the nice side-effect of reducing the size of
 // the minified code by reducing x.call() to merely x()
 // See Mark Miller’s explanation of what this does.
-// http://wiki.ecmascript.org/doku.php?id=conventions:safe_meta_programming
+// https://wiki.ecmascript.org/doku.php?id=conventions:safe_meta_programming
 var call = Function.call;
 function uncurryThis(f) {
     return function () {
@@ -223,7 +223,7 @@ function uncurryThis(f) {
 }
 // This is equivalent, but slower:
 // uncurryThis = Function_bind.bind(Function_bind.call);
-// http://jsperf.com/uncurrythis
+// https://jsperf.com/uncurrythis
 
 var array_slice = uncurryThis(Array.prototype.slice);
 
@@ -1469,7 +1469,7 @@ Promise.prototype.keys = function () {
  * @returns a promise for an array of the corresponding values
  */
 // By Mark Miller
-// http://wiki.ecmascript.org/doku.php?id=strawman:concurrency&rev=1308776521#allfulfilled
+// https://wiki.ecmascript.org/doku.php?id=strawman:concurrency&rev=1308776521#allfulfilled
 Q.all = all;
 function all(promises) {
     return when(promises, function (promises) {

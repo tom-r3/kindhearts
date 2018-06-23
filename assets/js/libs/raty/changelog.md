@@ -1,4 +1,4 @@
-# jQuery Raty - A Star Rating Plugin - http://wbotelhos.com/raty
+# jQuery Raty - A Star Rating Plugin - https://wbotelhos.com/raty
 
 ## 2.7.0
 

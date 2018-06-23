@@ -8,7 +8,7 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "http://opensource.org/licenses/MIT"
+      "url": "https://opensource.org/licenses/MIT"
     }
   ],
   "dependencies": {
@@ -22,6 +22,6 @@
     "select",
     "form"
   ],
-  "download": "http://timschlechter.github.io/bootstrap-tagsinput/build/bootstrap-tagsinput.zip",
-  "homepage": "http://timschlechter.github.io/bootstrap-tagsinput/examples/"
+  "download": "https://timschlechter.github.io/bootstrap-tagsinput/build/bootstrap-tagsinput.zip",
+  "homepage": "https://timschlechter.github.io/bootstrap-tagsinput/examples/"
 }

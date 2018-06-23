@@ -1,8 +1,8 @@
 # videojs-sublime-skin
 > A [Video.js][] skin modeled on [SublimeVideo][].
 
-[Video.js]: http://www.videojs.com/
-[SublimeVideo]: http://www.sublimevideo.net/
+[Video.js]: https://www.videojs.com/
+[SublimeVideo]: https://www.sublimevideo.net/
 
 ![](screenshot.png)
 

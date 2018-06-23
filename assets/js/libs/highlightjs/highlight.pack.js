@@ -567,7 +567,7 @@
 
     var node;
     if (options.useBR) {
-      node = document.createElementNS('http://www.w3.org/1999/xhtml', 'div');
+      node = document.createElementNS('https://www.w3.org/1999/xhtml', 'div');
       node.innerHTML = block.innerHTML.replace(/\n/g, '').replace(/<br[ \/]*>/g, '\n');
     } else {
       node = block;
@@ -577,7 +577,7 @@
 
     var originalStream = nodeStream(node);
     if (originalStream.length) {
-      var resultNode = document.createElementNS('http://www.w3.org/1999/xhtml', 'div');
+      var resultNode = document.createElementNS('https://www.w3.org/1999/xhtml', 'div');
       resultNode.innerHTML = result.value;
       result.value = mergeStreams(originalStream, nodeStream(resultNode), text);
     }
@@ -3536,7 +3536,7 @@ hljs.registerLanguage('bash', function(hljs) {
         'true false',
       built_in:
         // Shell built-ins
-        // http://www.gnu.org/software/bash/manual/html_node/Shell-Builtin-Commands.html
+        // https://www.gnu.org/software/bash/manual/html_node/Shell-Builtin-Commands.html
         'break cd continue eval exec exit export getopts hash pwd readonly return shift test times ' +
         'trap umask unset ' +
         // Bash built-ins
@@ -7124,7 +7124,7 @@ hljs.registerLanguage('julia', function(hljs) {
       'Unsigned Vararg VersionNumber WString WeakKeyDict WeakRef Woodbury Zip'
   };
 
-  // ref: http://julia.readthedocs.org/en/latest/manual/variables/#allowed-variable-names
+  // ref: https://julia.readthedocs.org/en/latest/manual/variables/#allowed-variable-names
   var VARIABLE_NAME_RE = "[A-Za-z_\\u00A1-\\uFFFF][A-Za-z_0-9\\u00A1-\\uFFFF]*";
 
   // placeholder for recursive self-reference
@@ -7140,7 +7140,7 @@ hljs.registerLanguage('julia', function(hljs) {
     begin: /<:/
   };
 
-  // ref: http://julia.readthedocs.org/en/latest/manual/integers-and-floating-point-numbers/
+  // ref: https://julia.readthedocs.org/en/latest/manual/integers-and-floating-point-numbers/
   var NUMBER = {
     className: "number",
     // supported numeric literals:

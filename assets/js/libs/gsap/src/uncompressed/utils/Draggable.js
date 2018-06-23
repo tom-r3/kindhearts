@@ -1,12 +1,12 @@
 /*!
  * VERSION: 0.14.3
  * DATE: 2015-12-19
- * UPDATES AND DOCS AT: http://greensock.com
+ * UPDATES AND DOCS AT: https://greensock.com
  *
- * Requires TweenLite and CSSPlugin version 1.17.0 or later (TweenMax contains both TweenLite and CSSPlugin). ThrowPropsPlugin is required for momentum-based continuation of movement after the mouse/touch is released (ThrowPropsPlugin is a membership benefit of Club GreenSock - http://greensock.com/club/).
+ * Requires TweenLite and CSSPlugin version 1.17.0 or later (TweenMax contains both TweenLite and CSSPlugin). ThrowPropsPlugin is required for momentum-based continuation of movement after the mouse/touch is released (ThrowPropsPlugin is a membership benefit of Club GreenSock - https://greensock.com/club/).
  *
  * @license Copyright (c) 2008-2016, GreenSock. All rights reserved.
- * This work is subject to the terms at http://greensock.com/standard-license or for
+ * This work is subject to the terms at https://greensock.com/standard-license or for
  * Club GreenSock members, the software agreement that was issued with your membership.
  * 
  * @author: Jack Doyle, jack@greensock.com
@@ -27,7 +27,7 @@ var _gsScope = (typeof(module) !== "undefined" && module.exports && typeof(globa
 			_doc = document,
 			_docElement = _doc.documentElement || {},
 			_createElement = function(type) {
-				return _doc.createElementNS ? _doc.createElementNS("http://www.w3.org/1999/xhtml", type) : _doc.createElement(type);
+				return _doc.createElementNS ? _doc.createElementNS("https://www.w3.org/1999/xhtml", type) : _doc.createElement(type);
 			},
 			_tempDiv = _createElement("div"),
 			_emptyArray = [],
@@ -307,7 +307,7 @@ var _gsScope = (typeof(module) !== "undefined" && module.exports && typeof(globa
 					return;
 				}
 				var div = _createElement("div"),
-					svg = _doc.createElementNS("http://www.w3.org/2000/svg", "svg"),
+					svg = _doc.createElementNS("https://www.w3.org/2000/svg", "svg"),
 					wrapper = _createElement("div"),
 					style = div.style,
 					parent = _doc.body || _docElement,

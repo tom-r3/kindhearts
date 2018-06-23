@@ -1,6 +1,6 @@
 /**
  * Colio - jQuery Portfolio Content Expander Plugin
- * http://plugins.gravitysign.com/colio
+ * https://plugins.gravitysign.com/colio
  * Copyright (c) 2013 Roman Yurchuk
  * Version 1.5
  */

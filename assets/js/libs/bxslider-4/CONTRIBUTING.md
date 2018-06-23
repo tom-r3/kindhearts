@@ -70,7 +70,7 @@ comments, etc.).
 Adhering to the following this process is the best way to get your work
 merged:
 
-1. [Fork](http://help.github.com/fork-a-repo/) the repo, clone your fork,
+1. [Fork](https://help.github.com/fork-a-repo/) the repo, clone your fork,
    and configure the remotes:
 
    ```bash
@@ -97,7 +97,7 @@ merged:
    ```
 
 4. Commit your changes in logical chunks. Please adhere to these [git commit
-   message guidelines](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
+   message guidelines](https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
    or your code is unlikely be merged into the main project. Use Git's
    [interactive rebase](https://help.github.com/articles/interactive-rebase)
    feature to tidy up your commits before making them public.

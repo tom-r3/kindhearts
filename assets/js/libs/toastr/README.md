@@ -7,8 +7,8 @@
 2.1.2
 
 ## Demo
-- Demo can be found at http://codeseven.github.io/toastr/demo.html
-- [Demo using FontAwesome icons with toastr](http://plnkr.co/edit/6W9URNyyp2ItO4aUWzBB?p=preview)
+- Demo can be found at https://codeseven.github.io/toastr/demo.html
+- [Demo using FontAwesome icons with toastr](https://plnkr.co/edit/6W9URNyyp2ItO4aUWzBB?p=preview)
 
 ## [CDNjs](https://cdnjs.com/libraries/toastr.js)
 Toastr is hosted at CDN JS
@@ -23,12 +23,12 @@ Toastr is hosted at CDN JS
  
 ## Install
 
-#### [NuGet Gallery](http://nuget.org/packages/toastr)
+#### [NuGet Gallery](https://nuget.org/packages/toastr)
 ```
 Install-Package toastr
 ```
 
-#### [Bower](http://bower.io/search/?q=toastr)
+#### [Bower](https://bower.io/search/?q=toastr)
 ```
 bower install toastr
 ```
@@ -54,7 +54,7 @@ The following animations options have been deprecated and should be replaced:
 ## Quick Start
 
 ### 3 Easy Steps
-For other API calls, see the [demo](http://codeseven.github.io/toastr/demo.html).
+For other API calls, see the [demo](https://codeseven.github.io/toastr/demo.html).
 
 1. Link to toastr.css `<link href="toastr.css" rel="stylesheet"/>`
 
@@ -137,7 +137,7 @@ toastr.options.hideEasing = 'linear';
 toastr.options.closeEasing = 'linear';
 ```
 
-Using the jQuery Easing plugin (http://www.gsgd.co.uk/sandbox/jquery/easing/)
+Using the jQuery Easing plugin (https://www.gsgd.co.uk/sandbox/jquery/easing/)
 ```js
 toastr.options.showEasing = 'easeOutBounce';
 toastr.options.hideEasing = 'easeInBack';
@@ -174,7 +174,7 @@ toastr.options.progressBar = true;
 
 ## Building Toastr
 
-To build the minified and css versions of Toastr you will need [node](http://nodejs.org) installed. (Use Homebrew or Chocolatey.)
+To build the minified and css versions of Toastr you will need [node](https://nodejs.org) installed. (Use Homebrew or Chocolatey.)
 
 ```
 npm install -g gulp karma-cli
@@ -200,15 +200,15 @@ All pull requests are subject to approval by the repository owners, who have sol
 ## Authors
 **John Papa**
 
-+ [http://twitter.com/John_Papa](http://twitter.com/John_Papa)
++ [https://twitter.com/John_Papa](https://twitter.com/John_Papa)
 
 **Tim Ferrell**
 
-+ [http://twitter.com/ferrell_tim](http://twitter.com/ferrell_tim)
++ [https://twitter.com/ferrell_tim](https://twitter.com/ferrell_tim)
 
 **Hans Fjällemark**
 
-+ [http://twitter.com/hfjallemark](http://twitter.com/hfjallemark)
++ [https://twitter.com/hfjallemark](https://twitter.com/hfjallemark)
 
 ## Credits
 Inspired by https://github.com/Srirangan/notifer.js/.
@@ -217,4 +217,4 @@ Inspired by https://github.com/Srirangan/notifer.js/.
 Copyright © 2012-2015
 
 ## License
-toastr is under MIT license - http://www.opensource.org/licenses/mit-license.php
+toastr is under MIT license - https://www.opensource.org/licenses/mit-license.php

@@ -78,17 +78,17 @@ Copyright and license
 The license is available within the repository in the [LICENSE][license] file.
 
 [angularjs]: https://angularjs.org/
-[angularui-select]: http://angular-ui.github.io/#ui-select
+[angularui-select]: https://angular-ui.github.io/#ui-select
 [atmospherejs-select2]: https://atmospherejs.com/package/jquery-select2
 [bootstrap2-select2]: https://github.com/t0m/select2-bootstrap-css
 [bootstrap3-select2]: https://github.com/t0m/select2-bootstrap-css/tree/bootstrap3
-[cdnjs]: http://www.cdnjs.com/libraries/select2
+[cdnjs]: https://www.cdnjs.com/libraries/select2
 [community]: https://select2.github.io/community.html
 [django-select2]: https://github.com/applegrew/django-select2
 [documentation]: https://select2.github.io/
 [documentation-folder]: https://github.com/select2/select2/tree/master/docs
 [freenode]: https://freenode.net/
-[jsdelivr]: http://www.jsdelivr.com/#!select2
+[jsdelivr]: https://www.jsdelivr.com/#!select2
 [license]: LICENSE.md
 [meteor-select2]: https://github.com/nate-strauser/meteor-select2
 [meteor-select2-alt]: https://jquery-select2.meteor.com
@@ -99,7 +99,7 @@ The license is available within the repository in the [LICENSE][license] file.
 [symfony2-select2]: https://github.com/avocode/FormExtensions
 [travis-ci-image]: https://travis-ci.org/select2/select2.svg?branch=master
 [travis-ci-status]: https://travis-ci.org/select2/select2
-[wicket]: http://wicket.apache.org
+[wicket]: https://wicket.apache.org
 [wicket-select2]: https://github.com/ivaynberg/wicket-select2
 [yii-select2]: https://github.com/tonybolzan/yii-select2
-[yii2-select2]: http://demos.krajee.com/widgets#select2
+[yii2-select2]: https://demos.krajee.com/widgets#select2

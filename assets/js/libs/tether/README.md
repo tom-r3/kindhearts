@@ -1,7 +1,7 @@
 ## Tether
 
 [![GitHub
-version](https://badge.fury.io/gh/HubSpot%2Ftether.svg)](http://badge.fury.io/gh/HubSpot%2Ftether)
+version](https://badge.fury.io/gh/HubSpot%2Ftether.svg)](https://badge.fury.io/gh/HubSpot%2Ftether)
 
 Tether is a JavaScript library for efficiently making an absolutely positioned element stay next to another element on the page.
 
@@ -23,9 +23,9 @@ $ bower install tether
 
 ## Usage
 
-[![Tether Docs](http://i.imgur.com/YCx8cLr.png)](http://github.hubspot.com/tether/#usage)
+[![Tether Docs](https://i.imgur.com/YCx8cLr.png)](https://github.hubspot.com/tether/#usage)
 
-[Demo & API Documentation](http://github.hubspot.com/tether/)
+[Demo & API Documentation](https://github.hubspot.com/tether/)
 
 
 ## Contributing

@@ -1,4 +1,4 @@
-Unit tests, written with [QUnit](http://docs.jquery.com/QUnit), are used to
+Unit tests, written with [QUnit](https://docs.jquery.com/QUnit), are used to
 expose bugs for squashing, prevent bugs from respawning, and suppress new
 bugs when adding new features and making changes.
 

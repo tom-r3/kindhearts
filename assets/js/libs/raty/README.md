@@ -4,7 +4,7 @@
 [![Dependency Status](https://david-dm.org/wbotelhos/raty.svg)](https://david-dm.org/wbotelhos/raty "Dependency Status")
 [![Dev Dependency Status](https://david-dm.org/wbotelhos/raty/dev-status.svg)](https://david-dm.org/wbotelhos/raty#info=devDependencies "Dev Dependency Status")
 [![Code Climate](https://codeclimate.com/github/wbotelhos/raty.png)](https://codeclimate.com/github/wbotelhos/raty "Code Climate")
-[![Support jQuery Raty](http://img.shields.io/gittip/wbotelhos.svg)](https://www.gittip.com/wbotelhos "Git Tip")
+[![Support jQuery Raty](https://img.shields.io/gittip/wbotelhos.svg)](https://www.gittip.com/wbotelhos "Git Tip")
 
 ## Version
 
@@ -115,12 +115,12 @@ $('div').raty('move', number);           // Move the mouse to the given score po
 
 ## Contributors
 
-[Check it out](http://github.com/wbotelhos/raty/graphs/contributors)
+[Check it out](https://github.com/wbotelhos/raty/graphs/contributors)
 
 ## Licence
 
-[The MIT License](http://opensource.org/licenses/MIT)
+[The MIT License](https://opensource.org/licenses/MIT)
 
 ## Love it!
 
-Via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=X8HEP2878NDEG&item_name=jQuery%20Raty) or [Gittip](http://www.gittip.com/wbotelhos). Thanks! (:
+Via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=X8HEP2878NDEG&item_name=jQuery%20Raty) or [Gittip](https://www.gittip.com/wbotelhos). Thanks! (:

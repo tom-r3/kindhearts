@@ -5,7 +5,7 @@
  * Licensed GPLv3 for open source use
  * or Flickity Commercial License for commercial use
  *
- * http://packery.metafizzy.co
+ * https://packery.metafizzy.co
  * Copyright 2015 Metafizzy
  */
 

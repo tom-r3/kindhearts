@@ -12,12 +12,12 @@
 
 For complete documentation, tons of examples, and a good time, visit:
 
-[http://bxslider.com](http://bxslider.com)
+[https://bxslider.com](https://bxslider.com)
 
-Written by: Steven Wanderski - [http://stevenwanderski.com](http://stevenwanderski.com)
+Written by: Steven Wanderski - [https://stevenwanderski.com](https://stevenwanderski.com)
 
 ###License
-Released under the MIT license - http://opensource.org/licenses/MIT
+Released under the MIT license - https://opensource.org/licenses/MIT
 
 Let's get on with it!
 
@@ -120,7 +120,7 @@ options: boolean (true / false)
 ```
 
 **easing**
-The type of "easing" to use during transitions. If using CSS transitions, include a value for the <code>transition-timing-function</code> property. If not using CSS transitions, you may include <code>plugins/jquery.easing.1.3.js</code> for many options.<br />See <a href="http://gsgd.co.uk/sandbox/jquery/easing/" target="_blank">http://gsgd.co.uk/sandbox/jquery/easing/</a> for more info.
+The type of "easing" to use during transitions. If using CSS transitions, include a value for the <code>transition-timing-function</code> property. If not using CSS transitions, you may include <code>plugins/jquery.easing.1.3.js</code> for many options.<br />See <a href="https://gsgd.co.uk/sandbox/jquery/easing/" target="_blank">https://gsgd.co.uk/sandbox/jquery/easing/</a> for more info.
 ```
 default: null
 options: if using CSS: 'linear', 'ease', 'ease-in', 'ease-out', 'ease-in-out', 'cubic-bezier(n,n,n,n)'. If not using CSS: 'swing', 'linear' (see the above file for more options)
@@ -162,7 +162,7 @@ options: integer
 ```
 
 **video**
-If any slides contain video, set this to <code>true</code>. Also, include <code>plugins/jquery.fitvids.js</code><br />See <a href="http://fitvidsjs.com/" target="_blank">http://fitvidsjs.com/</a> for more info
+If any slides contain video, set this to <code>true</code>. Also, include <code>plugins/jquery.fitvids.js</code><br />See <a href="https://fitvidsjs.com/" target="_blank">https://fitvidsjs.com/</a> for more info
 ```
 default: false
 options: boolean (true / false)
@@ -269,7 +269,7 @@ options: jQuery selector
 ```
 
 **buildPager**
-If supplied, function is called on every slide element, and the returned value is used as the pager item markup.<br />See <a href="http://bxslider.com/examples">examples</a> for detailed implementation
+If supplied, function is called on every slide element, and the returned value is used as the pager item markup.<br />See <a href="https://bxslider.com/examples">examples</a> for detailed implementation
 ```
 default: null
 options: function(slideIndex)
@@ -613,7 +613,7 @@ slider.destroySlider();
 
 ### Install Grunt and Bower
 
-**Unfamiliar with npm? Don't have node installed?** [Download and install node.js](http://nodejs.org/download/) before proceeding.
+**Unfamiliar with npm? Don't have node installed?** [Download and install node.js](https://nodejs.org/download/) before proceeding.
 
 From the command line:
 
@@ -648,7 +648,7 @@ Everyone is welcome to help [contribute](CONTRIBUTING.md) and improve this proje
 * Fix: Slider runs into undefined state when reloadSlider is called before initialization was finished #833
 
 ### Version 4.2.4
-NOTICE: We have switched to a Grunt based build process in order to leverage [Assemble](http://assemble.io) for local documentation building. Please review the above notes about Grunt for the commands available. 
+NOTICE: We have switched to a Grunt based build process in order to leverage [Assemble](https://assemble.io) for local documentation building. Please review the above notes about Grunt for the commands available. 
 
 * Fix: Fixed transition from first to last slide during infinite loop #778
 * Fix: Reload on multiple sliders doesn't work? #755
@@ -694,11 +694,11 @@ NOTICE: We have switched to a Grunt based build process in order to leverage [As
 
 4.2.0 Introduces a streamlined build process using [gulp](www.gulpjs.com). Along with this new build process the projects folder structure has been changed. You will find a `dist` folder with all assets ready to use, including both minified and unminified versions of the javascript. These assets should be ready to go. In `src` you will find the uncompiled assets, including a new less version of the css for bxslider. This is an important step for bxslider. It will help speed development up and keep work clean. It also paves the way for a big revamp we have planned in the future.
 
-**Unfamiliar with npm? Don't have node installed?** [Download and install node.js](http://nodejs.org/download/) before proceeding.
+**Unfamiliar with npm? Don't have node installed?** [Download and install node.js](https://nodejs.org/download/) before proceeding.
 
 From the command line:
 
-1. Install [gulp](http://gulpjs.com) globally with `npm install -g gulp`
+1. Install [gulp](https://gulpjs.com) globally with `npm install -g gulp`
 2. Navigate to the project directory, then run `npm install`
 
 You now have all the necessary dependencies to run the build process.
@@ -732,7 +732,7 @@ You now have all the necessary dependencies to run the build process.
 
 
 ### Version 4.1.2
-* Added `bower.json` configuration file. Manage bxSlider as a dependency using [bower](http://bower.io/).
+* Added `bower.json` configuration file. Manage bxSlider as a dependency using [bower](https://bower.io/).
 
 ### Version 4.1.1
 * Removed imagesLoaded library and added iframe preloading support

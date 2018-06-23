@@ -70,7 +70,7 @@ setupHero = ->
 
     finalDropState = ->
         $(drops['top left'].dropContent).html('Marrying DOM elements for life.')
-        $(drops['bottom right'].dropContent).html('<a class="button" href="http://github.com/HubSpot/tether">★ On Github</a>')
+        $(drops['bottom right'].dropContent).html('<a class="button" href="https://github.com/HubSpot/tether">★ On Github</a>')
         drops['top left'].open()
         drops['bottom right'].open()
 

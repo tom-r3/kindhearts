@@ -5,7 +5,7 @@
 
   /*
     ======== A Handy Little QUnit Reference ========
-    http://docs.jquery.com/QUnit
+    https://docs.jquery.com/QUnit
 
     Test methods:
       expect(numAssertions)

@@ -41,12 +41,12 @@ using "data-content" attribute
 		<p>Description here</p>
 		
 		<ul class="social">
-			<li><a class="facebook" href="http://fadebook.com">Facebook</a></li>
-			<li><a class="twitter" href="http://twitter.com">Twitter</a></li>
-			<li><a class="google" href="http://google.com">Google</a></li>
+			<li><a class="facebook" href="https://fadebook.com">Facebook</a></li>
+			<li><a class="twitter" href="https://twitter.com">Twitter</a></li>
+			<li><a class="google" href="https://google.com">Google</a></li>
 		</ul>
 		
-		<a class="visit-link" href="http://codecanyon.net">Visit Site</a>
+		<a class="visit-link" href="https://codecanyon.net">Visit Site</a>
 		
 	</div><!-- main -->
 	
