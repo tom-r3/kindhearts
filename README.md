@@ -9,8 +9,8 @@ THINGS TO DO
 - add lateral navigation
 - add picture to serivices page
 - change services page icon
+- add photo to ideas page
 
-- ideas page
 - blog page
 - helpful links page
 - news and education page
