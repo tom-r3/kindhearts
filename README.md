@@ -6,8 +6,10 @@ THINGS TO DO
 - set up map and form on contact page
 - change photo on rates page
 - update all nav bars and footers with correct links
+- add lateral navigation
+- add picture to serivices page
+- change services page icon
 
-- services page
 - ideas page
 - blog page
 - helpful links page
