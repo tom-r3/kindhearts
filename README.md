@@ -1,6 +1,5 @@
 THINGS TO DO
-- set up map and form on contact page
-- update all footers with correct links
+
 
 IMAGES
 - change pic on rates page
