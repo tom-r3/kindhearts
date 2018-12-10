@@ -1,7 +1,6 @@
 THINGS TO DO
 - set up map and form on contact page
-- update all nav bars and footers with correct links
-- change services page icon
+- update all footers with correct links
 
 IMAGES
 - change pic on rates page
