@@ -1,6 +1,6 @@
 THINGS TO DO
 - button to FAQ on homepage
-- hook up all contact us buttons
+- hook up social media buttons on contact us page
 - set up map and form on contact page
 - update all nav bars and footers with correct links
 - add lateral navigation
