@@ -6,13 +6,6 @@ THINGS TO DO
   Helping to make things easier.. SMALLER TEXT TURQUOISE
   - (flower) Kind Hearts\n Helping to make things easier (smaller)
 
-- add path/to/page header thing design to all pages
- - no more centered icon style
- - faq
- - career
- - services
- - contact us page?
-
 - hook up contact us form
 - create "blog post" style pages for each article once there are more
   - one combined blog/articles page
@@ -26,3 +19,4 @@ IMAGES
 BLOCKED
 - blog/articles page
 - text under FAQ section of website
+- do you want the contact us page to have the same design as the others?
