@@ -8,6 +8,10 @@ THINGS TO DO
 
 - add path/to/page header thing design to all pages
  - no more centered icon style
+ - faq
+ - career
+ - services
+ - contact us page?
 
 - hook up contact us form
 - create "blog post" style pages for each article once there are more
