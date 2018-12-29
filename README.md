@@ -4,22 +4,16 @@ THINGS TO DO
   Landing page words beside face, not blocking  
   FLWRS Kind Hearts GREY
   Helping to make things easier.. SMALLER TEXT TURQUOISE
-
--make all pages the same (already on your list)
-
-- Bottom of all pages after contact us: change Kind Hearts Senior Care: A Service for Seniors to “Kind Hearts, A Service for Seniors”
-
-Add Contact Us phone number field
-Change Contact Us email to info@kindhearts.ca
+  - (flower) Kind Hearts\n Helping to make things easier (smaller)
 
 - change kind hearts senior care to kind hearts: a service for seniors everywhere except for header things
 - connect contact us button
-- landing page should say:
- - (flower) Kind Hearts\n Helping to make things easier (smaller)
 - add articles page with the completed articles
 - replace kind hearts senior care: a service for seniors in the footer with Kind Hearts/n A Service for Seniors
 - add path/to/page header thing design to all pages
  - no more centered icon style
+
+- hook up contact us form
 
 
 IMAGES
