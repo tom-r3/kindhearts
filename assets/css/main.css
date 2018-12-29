@@ -237,7 +237,7 @@ h2.header-title {font-size: 3rem;}
 .big-subtitle {font-weight: 400 !important;line-height: 1.8em;font-size: 22px;}
 #wrapper .title {margin-bottom: 45px;}
 #wrapper .title h3 {font-weight: 600;font-size: 34px;text-transform: none; font-size: 28px;}
-#wrapper .title .subtitle {font-size: 17px;line-height: 1.8em;text-transform: none;margin-bottom: 0;height: auto;max-width: 760px;margin: 20px auto 0 auto;color: #888;letter-spacing: 0px;-webkit-font-smoothing: antialiased;font-style: normal;} 
+#wrapper .title .subtitle {font-size: 17px;line-height: 1.8em;text-transform: none;margin-bottom: 0;height: auto;max-width: 760px;margin: 20px auto 0 auto;color: #888;letter-spacing: 0px;-webkit-font-smoothing: antialiased;font-style: normal;}
 #wrapper .section-dark .title .subtitle {color:#CCCCCC;}
 .title.title-left .subtitle {margin-left: 0 !important;}
 #wrapper .title.title-left {margin-bottom: 5px;}
@@ -485,7 +485,7 @@ section.third-section figure {height: 100%;}
 .half-section.half-section-fullwidth,.half-section.half-section-fullwidth>div, .half-section.half-section-fullwidth .text-element-inner, .half-section.half-section-fullwidth .text-element-wrapper {display:block }
 .half-section.half-section-fullwidth .img-bottom {display: none;}
 .half-section.half-section-fullwidth, .half-section.half-section-fullwidth.t-right {text-align: center !important;}
-.half-section.half-section-fullwidth.m-t-10, .half-section.half-section-fullwidth.m-t-20, .half-section.half-section-fullwidth.m-t-30 {margin-top: 0 !important;} 
+.half-section.half-section-fullwidth.m-t-10, .half-section.half-section-fullwidth.m-t-20, .half-section.half-section-fullwidth.m-t-30 {margin-top: 0 !important;}
 .half-section.half-section-fullwidth .chart-wrapper {margin-top: 2rem;margin-bottom: 2rem;}
 .half-section.half-section-fullwidth .text-element-inner.p-l-100 {padding-left: 0 !important;}
 .half-section.half-section-fullwidth .text-element-inner.p-r-100 {padding-right: 0 !important;}
@@ -857,7 +857,7 @@ progress {height:100%;width:0%; text-align: left;color: #121212;border-radius:2p
 .icon-android:hover, .icon-colored .icon-android {background:#a4c639 !important;}
 .icon-apple:hover, .icon-colored .icon-apple {background:#5BC236 !important;}
 .icon-behance:hover, .icon-colored .icon-behance {background:#053eff !important;}
-.icon-bitbucket:hover, .icon-colored .icon-bitbucket {background:#205081 !important;} 
+.icon-bitbucket:hover, .icon-colored .icon-bitbucket {background:#205081 !important;}
 .icon-codepen:hover, .icon-colored .icon-codepen {background:#4E4E4E !important;}
 .icon-css3:hover, .icon-colored .icon-css3 {background:#26a8dc !important;}
 .icon-delicious:hover, .icon-colored .icon-delicious {background:#3399ff !important;}
