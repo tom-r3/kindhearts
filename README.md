@@ -6,10 +6,8 @@ THINGS TO DO
   Helping to make things easier.. SMALLER TEXT TURQUOISE
   - (flower) Kind Hearts\n Helping to make things easier (smaller)
 
-- change kind hearts senior care to kind hearts: a service for seniors everywhere except for header things
 - connect contact us button
 - add articles page with the completed articles
-- replace kind hearts senior care: a service for seniors in the footer with Kind Hearts/n A Service for Seniors
 - add path/to/page header thing design to all pages
  - no more centered icon style
 
