@@ -6,7 +6,6 @@ THINGS TO DO
   Helping to make things easier.. SMALLER TEXT TURQUOISE
   - (flower) Kind Hearts\n Helping to make things easier (smaller)
 
-- connect contact us button
 - add articles page with the completed articles
 - add path/to/page header thing design to all pages
  - no more centered icon style
