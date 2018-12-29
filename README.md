@@ -11,7 +11,8 @@ THINGS TO DO
  - no more centered icon style
 
 - hook up contact us form
-
+- create "blog post" style pages for each article once there are more
+  - one combined blog/articles page
 
 IMAGES
 - change pic on rates page
