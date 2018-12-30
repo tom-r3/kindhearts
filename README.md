@@ -1,16 +1,10 @@
 THINGS TO DO
 - hook up contact us form
-- create "blog post" style pages for each article once there are more
-  - one combined blog/articles page
-
-IMAGES
-- change pic on rates page
-- add pic to services page
-- add pic to ideas page
-- add pic to links page
 
 BLOCKED
 - blog/articles page
 - text under FAQ section of website
 - do you want the contact us page to have the same design as the others?
 - fix landing page cover photo if using new video
+- create "blog post" style pages for each article once there are more
+  - one combined blog/articles page
