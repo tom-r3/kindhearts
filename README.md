@@ -1,5 +1,4 @@
 THINGS TO DO
-- hook up contact us form
 - buy the video
  - fix landing page cover photo
 - fix autoplay on ipad
