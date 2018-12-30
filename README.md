@@ -1,5 +1,13 @@
 THINGS TO DO
 - hook up contact us form
+- close first services box and first FAQ box on load
+- add a home button
+- buy the video
+- fix autoplay on ipad
+- reduce space between services we provice and have questions on landing page
+  - all are equal
+
+- Articles Warding Off Dementia when you open PDF the blue title has the word dementiaS there should NOT be an s at the end
 
 BLOCKED
 - blog/articles page
