@@ -1,5 +1,4 @@
 THINGS TO DO
-- fix landing page cover photo
 
 MOBILE
 - logo in menu is too big
