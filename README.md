@@ -1,8 +1,11 @@
 THINGS TO DO
 - buy the video
  - fix landing page cover photo
-- fix autoplay on ipad
-- change moms name to Matson on site
+
+MOBILE
+- logo in menu is too big
+- landing page text too large
+- landing video not responsive
 
 BLOCKED
 - blog/articles page
