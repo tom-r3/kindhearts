@@ -1,6 +1,5 @@
 THINGS TO DO
-- buy the video
- - fix landing page cover photo
+- fix landing page cover photo
 
 MOBILE
 - logo in menu is too big
