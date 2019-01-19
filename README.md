@@ -2,6 +2,7 @@ THINGS TO DO
 - buy the video
  - fix landing page cover photo
 - fix autoplay on ipad
+- change moms name to Matson on site
 
 BLOCKED
 - blog/articles page
