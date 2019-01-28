@@ -4,6 +4,7 @@ MOBILE
 - logo in menu is too big
 - landing page text too large
 - landing video not responsive
+- learn more link pops up then disappears on moms ipad
 
 BLOCKED
 - blog/articles page
