@@ -13,3 +13,9 @@ BLOCKED
   - one combined blog/articles page
 - reduce space between services we provice and have questions on landing page
   - all are equal, awaiting new texts
+
+
+INSTRUCTIONS FOR FTP
+
+- look up the FTP user/server through cpanel
+- transfer updated files onto server
